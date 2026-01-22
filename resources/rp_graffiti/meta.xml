@@ -1,0 +1,18 @@
+<meta>
+	<info name="Graffiti system" author="Jayceon" version="1.0.6" type="script" />
+	
+	<script type="server" src="sourceS.lua" />
+	<script type="client" src="sourceC.lua" />
+	
+	<min_mta_version client="1.4.0" />
+	
+	<file src="files/fonts/mainFont.ttf" />
+	<file src="files/images/icons.png" />
+	<file src="files/images/paintarea_dark.png" />
+	<file src="files/images/paintarea_light.png" />
+	<file src="files/images/circle.png" />
+	<file src="files/images/colorpalette.png" />
+	<file src="files/images/protect.png" />
+	<file src="files/images/clean.png" />
+	<file src="files/imageURL.html" />
+</meta>

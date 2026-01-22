@@ -1,0 +1,14 @@
+<meta>
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.lua" type="client" />
+	<file src="files/Helvetica.ttf" />
+	<file src="files/bodybag.dff" />
+	<file src="files/bodybag.txd" />
+	<file src="files/heartbeat.mp3" />
+
+	<export function="setPlayerBW" type="server" />
+	<export function="disablePlayerBW" type="server" />
+	<export function="hasPlayerBW" type="server" />
+	<export function="hasPlayerBW" type="client" />
+
+</meta>

@@ -1,0 +1,12 @@
+<meta>
+
+	<script src="sourceS.lua" type="server"/>
+	<script src="sourceC.lua" type="client"/>
+    <file src="files/**/*.png"/>
+    <file src="files/**/*.jpg"/>
+    <file src="files/ringtones/**/*.mp3"/>
+	<export function="returnPlayerCaller" type="server" />
+
+    <file src="files/Helvetica.ttf"/>
+
+</meta>

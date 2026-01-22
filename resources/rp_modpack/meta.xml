@@ -1,0 +1,15 @@
+<meta>
+    <script src="sourceC.lua" type="client" />
+
+
+    <script src="sourceS.lua" type="server" />
+	
+	<file src="models/twsp.dff" />
+	<file src="models/twsp.col" />
+	<file src="models/twsp.txd" />
+	<file src="models/**/*.col"/>
+    <file src="models/**/*.txd"/>
+    <file src="models/**/*.dff"/>
+		<min_mta_version server="1.6.0-9.22459" client="1.6.0-9.22470" />
+
+</meta>

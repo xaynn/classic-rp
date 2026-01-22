@@ -1,0 +1,29 @@
+<meta>
+    <script src="nicknamesC.lua" type="client" />
+	<script src="afkC.lua" type="client" />
+	<script src="descC.lua" type="client" />
+
+
+	<export function="amePlayer" type="server" />
+	<export function="setPlayerStatus" type="server" />
+	<export function="getPlayerStatus" type="server" />
+	<export function="loadPlayerNicknames" type="client" />
+	<export function="destroyNameTag" type="client" />
+	<export function="setNicknamesState" type="client" />
+
+	<export function="addNametag" type="client" />
+	<export function="togme" type="client" />
+
+
+	<file src="files/dmg.png" />
+
+	<file src="files/Helvetica.ttf" />
+	<file src="files/myriadpro.otf" />
+
+		<!-- <file src="line.png" /> -->
+	<min_mta_version server="1.6.0-9.22459" client="1.5.6-9.16362" />
+
+    <script src="nicknamesS.lua" type="server" />
+    <download_priority_group>99</download_priority_group>
+
+</meta>

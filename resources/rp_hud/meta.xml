@@ -1,0 +1,162 @@
+<meta>
+
+	<script src="sourceS.lua" type="server"/>
+	<script src="sourceC.lua" type="client"/>
+  <file src="assets/Helvetica.ttf" />
+
+  <file src="assets/blips/arrow.png" />
+    <file src="assets/blips/0.png" />
+    <file src="assets/blips/1.png" />
+    <file src="assets/blips/2.png" />
+    <file src="assets/blips/3.png" />
+    <file src="assets/blips/4.png" />
+    <file src="assets/blips/5.png" />
+    <file src="assets/blips/6.png" />
+    <file src="assets/blips/7.png" />
+    <file src="assets/blips/8.png" />
+    <file src="assets/blips/9.png" />
+    <file src="assets/blips/10.png" />
+    <file src="assets/blips/11.png" />
+    <file src="assets/blips/12.png" />
+    <file src="assets/blips/13.png" />
+    <file src="assets/blips/14.png" />
+    <file src="assets/blips/15.png" />
+    <file src="assets/blips/16.png" />
+    <file src="assets/blips/17.png" />
+    <file src="assets/blips/18.png" />
+    <file src="assets/blips/19.png" />
+    <file src="assets/blips/20.png" />
+    <file src="assets/blips/21.png" />
+    <file src="assets/blips/22.png" />
+    <file src="assets/blips/23.png" />
+    <file src="assets/blips/24.png" />
+    <file src="assets/blips/25.png" />
+    <file src="assets/blips/26.png" />
+    <file src="assets/blips/27.png" />
+    <file src="assets/blips/28.png" />
+    <file src="assets/blips/29.png" />
+    <file src="assets/blips/30.png" />
+    <file src="assets/blips/31.png" />
+    <file src="assets/blips/32.png" />
+    <file src="assets/blips/33.png" />
+    <file src="assets/blips/34.png" />
+    <file src="assets/blips/35.png" />
+    <file src="assets/blips/36.png" />
+    <file src="assets/blips/37.png" />
+    <file src="assets/blips/38.png" />
+    <file src="assets/blips/39.png" />
+    <file src="assets/blips/40.png" />
+    <file src="assets/blips/41.png" />
+    <file src="assets/blips/42.png" />
+    <file src="assets/blips/43.png" />
+    <file src="assets/blips/44.png" />
+    <file src="assets/blips/45.png" />
+    <file src="assets/blips/46.png" />
+    <file src="assets/blips/47.png" />
+    <file src="assets/blips/48.png" />
+    <file src="assets/blips/49.png" />
+    <file src="assets/blips/50.png" />
+    <file src="assets/blips/51.png" />
+    <file src="assets/blips/52.png" />
+    <file src="assets/blips/53.png" />
+    <file src="assets/blips/54.png" />
+    <file src="assets/blips/55.png" />
+    <file src="assets/blips/56.png" />
+    <file src="assets/blips/57.png" />
+    <file src="assets/blips/58.png" />
+    <file src="assets/blips/59.png" />
+    <file src="assets/blips/60.png" />
+    <file src="assets/blips/61.png" />
+    <file src="assets/blips/62.png" />
+    <file src="assets/blips/63.png" />
+
+    <file src="assets/weapons/0.png" />
+    <file src="assets/weapons/1.png" />
+    <file src="assets/weapons/2.png" />
+    <file src="assets/weapons/3.png" />
+    <file src="assets/weapons/4.png" />
+    <file src="assets/weapons/5.png" />
+    <file src="assets/weapons/6.png" />
+    <file src="assets/weapons/7.png" />
+    <file src="assets/weapons/8.png" />
+    <file src="assets/weapons/9.png" />
+    <file src="assets/weapons/10.png" />
+    <file src="assets/weapons/11.png" />
+    <file src="assets/weapons/12.png" />
+    <file src="assets/weapons/14.png" />
+    <file src="assets/weapons/15.png" />
+    <file src="assets/weapons/16.png" />
+    <file src="assets/weapons/17.png" />
+    <file src="assets/weapons/18.png" />
+    <file src="assets/weapons/22.png" />
+    <file src="assets/weapons/23.png" />
+    <file src="assets/weapons/24.png" />
+    <file src="assets/weapons/25.png" />
+    <file src="assets/weapons/26.png" />
+    <file src="assets/weapons/27.png" />
+    <file src="assets/weapons/28.png" />
+    <file src="assets/weapons/29.png" />
+    <file src="assets/weapons/30.png" />
+    <file src="assets/weapons/31.png" />
+    <file src="assets/weapons/32.png" />
+    <file src="assets/weapons/33.png" />
+    <file src="assets/weapons/34.png" />
+    <file src="assets/weapons/35.png" />
+    <file src="assets/weapons/36.png" />
+    <file src="assets/weapons/37.png" />
+    <file src="assets/weapons/38.png" />
+    <file src="assets/weapons/39.png" />
+    <file src="assets/weapons/40.png" />
+    <file src="assets/weapons/41.png" />
+    <file src="assets/weapons/42.png" />
+    <file src="assets/weapons/43.png" />
+    <file src="assets/weapons/44.png" />
+    <file src="assets/weapons/45.png" />
+    <file src="assets/weapons/46.png" />
+
+
+    <file src="assets/hud/armor.png" />
+    <file src="assets/hud/armor2.png" />
+    <file src="assets/hud/bar.png" />
+    <file src="assets/hud/health.png" />
+    <file src="assets/hud/health2.png" />
+    <file src="assets/hud/hp.png" />
+    <file src="assets/hud/hp2.png" />
+    <file src="assets/hud/money.png" />
+    <file src="assets/hud/weapon.png" />
+    <file src="assets/hud/blue_line.png" />
+    <file src="assets/hud/blue_line_color.png" />
+    <file src="assets/hud/green_line.png" />
+    <file src="assets/hud/green_line_color.png" />
+    <file src="assets/hud/red_line.png" />
+    <file src="assets/hud/red_line_color.png" />
+
+    <file src="assets/radar/location.png" />
+    <file src="assets/radar/radar.png" />
+    <file src="assets/radar/radar2.png" />
+	    <file src="assets/radar/radar2.jpg" />
+	    <file src="assets/radar/arrow.png" />
+    <file src="assets/blips/4.png" />
+
+    <file src="assets/radar/shadow.png" />
+    <file src="assets/radar/rectangle_mask.png" />
+    <file src="assets/radar/questionmark.jpg" />
+
+	    <file src="assets/radar/circle_mask.png" />
+
+    <file src="assets/radar/tex_matrix.fx" />
+
+	<file src="hud_mask.fx" type="client" />
+
+
+	<oop>true</oop>
+	<export function="initHud" type="client" />
+
+
+    <file src="assets/duty.png" />
+	
+	    <file src="assets/weapon_bg.png" />
+	    <file src="assets/hud_bg.png" />
+			    <file src="assets/font.ttf" />
+			    <file src="assets/fontbold.ttf" />
+</meta>

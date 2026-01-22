@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		
+		<style>
+			@font-face {
+				font-family: Roboto;
+				src: url('fonts/Roboto.ttf');
+			}
+			
+			* {
+				margin: 0;
+				padding: 0;
+				font-family: 'Roboto', sans-serif;
+				overflow: hidden;
+				-webkit-transition: all .3s ease;
+				-moz-transition: all .3s ease;
+				-o-transition: all .3s ease;
+				transition: all .3s ease;
+			}
+			
+			::selection {
+				background-color: #757575;
+			}
+			
+			body {
+				color: #fff;
+				text-shadow: 2px #000;
+			}
+			
+			.container {
+				padding-top: 30px;
+				vertical-align: middle;
+				white-space: nowrap;
+			}
+			
+			#url_input {
+				width: 100%;
+				height: 50px;
+				background: #222;
+				border: none;
+				font-size: 12pt;
+				float: left;
+				color: #ccc;
+				-webkit-border-radius: 5px;
+				-moz-border-radius: 5px;
+				border-radius: 5px;
+				text-align: center;
+				outline: 0;
+			}
+			
+			#url_button {
+				padding: 3px;
+				margin-bottom: 15px;
+				font-size: 16px;
+				font-weight: bold;
+				cursor: pointer;
+				display:block;
+				width: 150px;
+				height: 150px;
+				border-radius: 50%;
+				outline: 0;
+				border: 3px solid #fff;
+				color: #fff;
+				background: none;
+			}
+
+			#url_button:hover {
+				border: 3px solid #5fd664;
+				color: #5fd664;
+			}
+			
+			.download {
+				display: table;
+				margin: 0 auto;
+			}
+		</style>
+		
+		<script>
+			function startDownload() {
+				return mta.triggerEvent("onClientTryToDownloadImage", document.getElementById("url_input").value);
+			}
+			
+			function changeTheme(theme) {
+				if (theme == "light") {
+					document.getElementsByTagName("body")[0].style.color = "#000";
+					document.getElementById("url_input").style.background = "#999";
+					document.getElementById("url_input").style.color = "#111";
+					
+					document.getElementById("url_button").style.borderColor = "#222";
+					document.getElementById("url_button").style.color = "#222";
+					
+					var div = document.getElementById("url_button");
+					div.onmouseover = function() {
+						this.style.borderColor = "#5fd664";
+						this.style.color = "#5fd664";
+					};
+					div.onmouseout = function() {
+						this.style.borderColor = "#222";
+						this.style.color = "#222";
+					};
+				} else {
+					document.getElementsByTagName("body")[0].style.color = "#fff";
+					document.getElementById("url_input").style.background = "#222";
+					document.getElementById("url_input").style.color = "#ccc";
+					
+					document.getElementById("url_button").style.borderColor = "#fff";
+					document.getElementById("url_button").style.color = "#fff";
+					
+					var div = document.getElementById("url_button");
+					div.onmouseover = function() {
+						this.style.borderColor = "#5fd664";
+						this.style.color = "#5fd664";
+					};
+					div.onmouseout = function() {
+						this.style.borderColor = "#fff";
+						this.style.color = "#fff";
+					};
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div id="main" style="position: absolute; font-family: 'Roboto', sans-serif;">
+			<br/>
+			<b style="color: #D75959;">Attention!</b> You can download only images.<br/>
+			The supported formats is: <b>.png</b>, <b>.jpg</b>, <b>.jpeg</b> and <b>.bmp</b> (Optional size: <b>580x360</b>)<br/>
+			When you selected the image, copy the URL and paste it to the input field and click <b style="color: #5fd664;">(DOWNLOAD)</b>.
+			<div class="container">
+				<input type="text" placeholder="Paste here your URL..." id="url_input" />
+			</div><br/>
+			<div class="download">
+				<button id="url_button" type="submit" onclick="startDownload();">DOWNLOAD</button>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,7 @@
+<meta>
+
+	<script src="sourceS.lua" type="server"/>
+	<script src="sourceC.lua" type="client"/>
+	<file src="files/arrow.png"/>
+	<file src="files/light.png"/>
+</meta>

@@ -1,0 +1,15 @@
+<meta> 
+    <script src="sourceS.lua" type="server" />
+	<script src="sourceC.lua" type="client" />
+	<file src="files/Helvetica.ttf" />
+    <export function="takePlayerCustomMoney" type="server" /> <!-- Zabranie graczowi pieniędzy, player, amount -->
+    <export function="takeBankMoney" type="server" /> <!-- Zabranie graczowi pieniędzy z banku, player, amount -->
+	<export function="giveToPlayerMoney" type="server" />  <!-- gracz A daje graczowi B pieniądze, player, target, amount -->
+	<export function="givePlayerCustomMoney" type="server" /> <!-- Danie graczowi pieniędzy. player, amount -->
+	<export function="giveBankMoney" type="server" /> <!-- Danie graczowi pieniędzy do banku. player, amount -->
+
+
+
+	
+
+</meta>

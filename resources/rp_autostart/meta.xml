@@ -1,0 +1,6 @@
+<meta>
+	<info name="Autostart" author="insane" version="1.0"/>
+
+	<script src="sourceS.lua" type="server"/>
+
+</meta>

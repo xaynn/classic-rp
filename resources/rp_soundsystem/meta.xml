@@ -1,0 +1,11 @@
+<meta>
+
+	<script src="sourceS.lua" type="server"/>
+	<script src="sourceC.lua" type="client"/>
+    <file src="files/*.mp3"/>
+
+	<export function="playSoundInArea" type="server"/>
+	<!-- <file src="files/Helvetica.ttf" /> -->
+	<min_mta_version server="1.6.0-9.22459" client="1.5.6-9.16362" />
+
+</meta>

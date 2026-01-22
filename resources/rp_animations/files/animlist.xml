@@ -1,0 +1,361 @@
+<root>
+ <anim id='1' isLoop='false' commandName='bar1' desc='Chwilowe opieranie się o ladę.' category='Stanie' block='BAR' updatePosition='true' anim='BARman_idle' customAnim=false></anim>
+ <anim id='2' isLoop='false' commandName='bar2' desc='Ciągłe opieranie się o ladę.' category='Stanie' block='BAR' updatePosition='true' anim='BARserve_in' customAnim=false></anim>
+ <anim id='3' isLoop='false' commandName='bar3' desc='Szeptanie do osoby za ladą.' category='Stanie' block='BAR' updatePosition='false' anim='BARserve_order' customAnim=false></anim>
+ <anim id='4' isLoop='false' commandName='barwez' desc='Avatar odbiera jakiś przedmiot.' category='Stanie' block='BAR' updatePosition='true' anim='barcustom_get' customAnim=false></anim>
+ <anim id='5' isLoop='false' commandName='barwez2' desc='Wyjmowanie przedmiotu spod lady.' category='Stanie' block='BAR' updatePosition='true' anim='BARserve_bottle' customAnim=false></anim>
+ <anim id='6' isLoop='false' commandName='barpodaj' desc='Podawanie czegoś na ladę.' category='Stanie' block='BAR' updatePosition='true' anim='BARserve_give' customAnim=false></anim>
+ <anim id='7' isLoop='false' commandName='barnalej' desc='Nalewanie napoju z urządzenia.' category='Stanie' block='BAR' updatePosition='true' anim='BARserve_glass' customAnim=false></anim>
+ <anim id='8' isLoop='false' commandName='wodka' desc='Postać pijąca z kielicha.' category='Stanie' block='VENDING' updatePosition='false' anim='VEND_Drink_P' customAnim=false></anim>
+ <anim id='9' isLoop='true' commandName='lez' desc='Leżenie plażowe.' category='Leżenie' block='beach' updatePosition='true' anim='bather' customAnim=false></anim>
+ <anim id='10' isLoop='false' commandName='lez2' desc='Leżenie plażowe w wersji z rozkrokiem.' category='Leżenie' block='beach' updatePosition='true' anim='Lay_Bac_Loop' customAnim=false></anim>
+ <anim id='11' isLoop='false' commandName='lez3' desc='Leżenie ze złożonymi nogami.' category='Leżenie' block='beach' updatePosition='true' anim='ParkSit_W_loop' customAnim=false></anim>
+ <anim id='12' isLoop='false' commandName='lez4' desc='Plażowe leżenie z podpartymi rękoma.' category='Leżenie' block='beach' updatePosition='true' anim='SitnWait_loop_W' customAnim=false></anim>
+ <anim id='13' isLoop='false' commandName='spij' desc='Spanie na łóżku.' category='Leżenie' block='Crack' updatePosition='true' anim='crckidle2' customAnim=false></anim>
+ <anim id='14' isLoop='false' commandName='spij2' desc='Spanie na plecach.' category='Leżenie' block='Crack' updatePosition='true' anim='crckidle4' customAnim=false></anim>
+ <anim id='15' isLoop='false' commandName='padnij' desc='Leżenie na plecach.' category='Leżenie' block='FIGHT_E' updatePosition='true' anim='Hit_fightkick_B' customAnim=false></anim>
+ <anim id='16' isLoop='false' commandName='krzeslo' desc='Siadanie na krześle.' category='Siedzenie' block='ped' updatePosition='false' anim='SEAT_idle' customAnim=false></anim>
+ <anim id='17' isLoop='false' commandName='krzeslo2' desc='Przygarbione siedzenie na ławce.' category='Siedzenie' block='MISC' updatePosition='false' anim='SEAT_LR' customAnim=false></anim>
+ <anim id='18' isLoop='false' commandName='siad' desc='Siedzenie na ziemi z ugiętymi kolanami.' category='Siedzenie' block='beach' updatePosition='true' anim='ParkSit_M_loop' customAnim=false></anim>
+ <anim id='19' isLoop='true' commandName='fotel' desc='Rozsiadanie się na wygodnym fotelu.' category='Siedzenie' block='INT_HOUSE' updatePosition='false' anim='LOU_Loop' customAnim=false></anim>
+ <anim id='20' isLoop='true' commandName='fotel2' desc='Eleganckie siedzenie z założoną nogą na nogę.' category='Siedzenie' block='JST_BUISNESS' updatePosition='false' anim='girl_02' customAnim=false></anim>
+ <anim id='21' isLoop='false' commandName='startuj' desc='Dawanie sygnału do rozpoczęcia.' category='Stanie' block='CAR' updatePosition='true' anim='flag_drop' customAnim=false></anim>
+ <anim id='22' isLoop='false' commandName='ramiona' desc='Założone ręce na siebie.' category='Stanie' block='COP_AMBIENT' updatePosition='true' anim='Coplook_loop' customAnim=false></anim>
+ <anim id='23' isLoop='false' commandName='foch' desc='Mały foszek...' category='Stanie' block='COP_AMBIENT' updatePosition='true' anim='Coplook_shake' customAnim=false></anim>
+ <anim id='24' isLoop='false' commandName='mysl' desc='Zastanawianie się.' category='Stanie' block='COP_AMBIENT' updatePosition='true' anim='Coplook_think' customAnim=false></anim>
+ <anim id='25' isLoop='false' commandName='miesnie' desc='Dumne wychwalanie swojej tężyzny fizycznej.' category='Stanie' block='Freeweights' updatePosition='true' anim='gym_free_celebrate' customAnim=false></anim>
+ <anim id='26' isLoop='true' commandName='placz' desc='Pogrążenie w smutku.' category='Stanie' block='GRAVEYARD' updatePosition='false' anim='mrnF_loop' customAnim=false></anim>
+ <anim id='27' isLoop='true' commandName='czekam' desc='Złączone dłonie na wysokości pasa, opuszczona głowa.' category='Stanie' block='GRAVEYARD' updatePosition='false' anim='mrnM_loop' customAnim=false></anim>
+ <anim id='28' isLoop='true' commandName='machaj' desc='Animacja machania ręką.' category='Stanie' block='ON_LOOKERS' updatePosition='false' anim='wave_loop' customAnim=false></anim>
+ <anim id='29' isLoop='false' commandName='machaj2' desc='Delikatne machanie ręką.' category='Stanie' block='KISSING' updatePosition='true' anim='gfwave2' customAnim=false></anim>
+ <anim id='30' isLoop='false' commandName='oh' desc='Klasyczny facepalm.' category='Stanie' block='MISC' updatePosition='true' anim='plyr_shkhead' customAnim=false></anim>
+ <anim id='31' isLoop='false' commandName='oh2' desc='Facepalm w wersji drugiej.' category='Stanie' block='OTB' updatePosition='false' anim='wtchrace_lose' customAnim=false></anim>
+ <anim id='32' isLoop='false' commandName='pukaj' desc='Zapukanie do drzwi.' category='Stanie' block='MISC' updatePosition='true' anim='bng_wndw_02' customAnim=false></anim>
+ <anim id='33' isLoop='true' commandName='taxip' desc='Postać czekająca na taxi - prawa ręka.' category='Stanie' block='MISC' updatePosition='false' anim='Hiker_Pose' customAnim=false></anim>
+ <anim id='34' isLoop='true' commandName='taxil' desc='Postać czekająca na taxi - lewa ręka.' category='Stanie' block='MISC' updatePosition='false' anim='Hiker_Pose_L' customAnim=false></anim>
+ <anim id='35' isLoop='true' commandName='gogo' desc='Machanie rękoma na znak dopingu.' category='Stanie' block='RIOT' updatePosition='false' anim='RIOT_CHANT' customAnim=false></anim>
+ <anim id='36' isLoop='false' commandName='fuck' desc='Obraźliwy gest.' category='Stanie' block='RIOT' updatePosition='false' anim='RIOT_FUKU' customAnim=false></anim>
+ <anim id='37' isLoop='false' commandName='krzyk' desc='Krzyczenie.' category='Stanie' block='RIOT' updatePosition='false' anim='RIOT_shout' customAnim=false></anim>
+ <anim id='38' isLoop='false' commandName='podejdz' desc='Postać zapraszająca delikwenta do siebie.' category='Stanie' block='POLICE' updatePosition='false' anim='CopTraf_Come' customAnim=false></anim>
+ <anim id='39' isLoop='false' commandName='stop' desc='Postać nakłaniająca do zatrzymania się.' category='Stanie' block='POLICE' updatePosition='false' anim='CopTraf_Stop' customAnim=false></anim>
+ <anim id='40' isLoop='false' commandName='nie' desc='Gest pokazujący niezadowolenie.' category='Stanie' block='ped' updatePosition='false' anim='endchat_02' customAnim=false></anim>
+ <anim id='41' isLoop='false' commandName='zdziwiony' desc='Zaskoczona postać z otwartymi ustami.' category='Stanie' block='ped' updatePosition='true' anim='facsurp' customAnim=false></anim>
+ <anim id='42' isLoop='true' commandName='zmeczony' desc='Zmęczenie postaci - pierwsza opcja.' category='Stanie' block='FAT' updatePosition='true' anim='IDLE_tired' customAnim=false></anim>
+ <anim id='43' isLoop='false' commandName='zmeczony2' desc='Zmęczenie naszej postaci w drugim wariancie.' category='Stanie' block='ped' updatePosition='false' anim='IDLE_tired' customAnim=false></anim>
+ <anim id='44' isLoop='false' commandName='win' desc='Wiwatująca postać.' category='Stanie' block='OTB' updatePosition='false' anim='wtchrace_win' customAnim=false></anim>
+ <anim id='45' isLoop='false' commandName='salutuj' desc='Yes, sir!' category='Stanie' block='ON_LOOKERS' updatePosition='false' anim='lkup_loop' customAnim=false></anim>
+ <anim id='46' isLoop='false' commandName='wskaz' desc='Wskazywanie czegoś ręką.' category='Stanie' block='ON_LOOKERS' updatePosition='false' anim='point_loop' customAnim=false></anim>
+ <anim id='47' isLoop='false' commandName='wskaz2' desc='Wskazywanie czegoś ręką w górę.' category='Stanie' block='ON_LOOKERS' updatePosition='false' anim='pointup_loop' customAnim=false></anim>
+ <anim id='48' isLoop='false' commandName='doping' desc='Dopingowanie.' category='Stanie' block='ON_LOOKERS' updatePosition='false' anim='shout_02' customAnim=false></anim>
+ <anim id='49' isLoop='false' commandName='klepnij' desc='Klepnięcie w pośladki.' category='Stanie' block='SWEET' updatePosition='false' anim='sweet_ass_slap' customAnim=false></anim>
+ <anim id='50' isLoop='true' commandName='rap' desc='Rapowanie w pierwszej wersji.' category='Gang' block='RAPPING' updatePosition='false' anim='RAP_A_Loop' customAnim=false></anim>
+ <anim id='51' isLoop='true' commandName='rap2' desc='Rapowanie w drugiej wersji.' category='Gang' block='RAPPING' updatePosition='false' anim='RAP_B_Loop' customAnim=false></anim>
+ <anim id='52' isLoop='true' commandName='rap3' desc='Rapowanie w trzeciej wersji.' category='Gang' block='RAPPING' updatePosition='false' anim='RAP_C_Loop' customAnim=false></anim>
+ <anim id='53' isLoop='false' commandName='wtf' desc='Uniesienie rąk na znak niezadowolenia.' category='Gang' block='RIOT' updatePosition='false' anim='RIOT_ANGRY' customAnim=false></anim>
+ <anim id='54' isLoop='false' commandName='baseball' desc='Szpanowanie kijem baseballowym - pierwsza wersja.' category='Gang' block='Crack' updatePosition='true' anim='Bbalbat_Idle_01' customAnim=false></anim>
+ <anim id='55' isLoop='false' commandName='baseball2' desc='Szpanowanie kijem baseballowym - druga wersja.' category='Gang' block='Crack' updatePosition='true' anim='Bbalbat_Idle_02' customAnim=false></anim>
+ <anim id='56' isLoop='true' commandName='tancz' desc='Pierwszy taniec - klubowy.' category='Taniec' block='Dancing' updatePosition='false' anim='dance_loop' customAnim=false></anim>
+ <anim id='57' isLoop='true' commandName='tancz2' desc='Drugi taniec - wypinanie tyłka.' category='Taniec' block='Dancing' updatePosition='false' anim='DAN_Down_A' customAnim=false></anim>
+ <anim id='58' isLoop='true' commandName='tancz3' desc='Trzeci taniec - odstawianie nogi do tyłu.' category='Taniec' block='Dancing' updatePosition='false' anim='DAN_Left_A' customAnim=false></anim>
+ <anim id='59' isLoop='true' commandName='tancz4' desc='Czwarty taniec - delikatnie i spokojnie.' category='Taniec' block='Dancing' updatePosition='false' anim='DAN_Loop_A' customAnim=false></anim>
+ <anim id='60' isLoop='true' commandName='tancz5' desc='Piąty taniec - stawianie nogi do przodu.' category='Taniec' block='Dancing' updatePosition='false' anim='DAN_Right_A' customAnim=false></anim>
+ <anim id='61' isLoop='true' commandName='tancz6' desc='Szósty taniec - wyginam śmiało ciało!' category='Taniec' block='Dancing' updatePosition='false' anim='DAN_UP_A' customAnim=false></anim>
+ <anim id='62' isLoop='true' commandName='tancz7' desc='Siódmy taniec - falowanie ciałem.' category='Taniec' block='Dancing' updatePosition='false' anim='dnce_M_a' customAnim=false></anim>
+ <anim id='63' isLoop='true' commandName='tancz8' desc='Ósmy taniec - wolne bujanie się.' category='Taniec' block='Dancing' updatePosition='false' anim='dnce_M_b' customAnim=false></anim>
+ <anim id='64' isLoop='true' commandName='tancz9' desc='Dziewiąty taniec - gentleman!' category='Taniec' block='Dancing' updatePosition='false' anim='dnce_M_d' customAnim=false></anim>
+ <anim id='65' isLoop='true' commandName='tancz10' desc='Dziesiąty taniec - szybkie odstawianie nogi.' category='Taniec' block='Dancing' updatePosition='false' anim='dnce_M_e' customAnim=false></anim>
+ <anim id='66' isLoop='false' commandName='stack1' desc='Gest gangowy.' category='Gang' block='GHANDS' updatePosition='true' anim='gsign1' customAnim=false></anim>
+ <anim id='67' isLoop='false' commandName='stack2' desc='Gest gangowy.' category='Gang' block='GHANDS' updatePosition='true' anim='gsign1LH' customAnim=false></anim>
+ <anim id='68' isLoop='false' commandName='stack3' desc='Gest gangowy.' category='Gang' block='GHANDS' updatePosition='true' anim='gsign2' customAnim=false></anim>
+ <anim id='69' isLoop='false' commandName='stack4' desc='Gest gangowy.' category='Gang' block='GHANDS' updatePosition='true' anim='gsign2LH' customAnim=false></anim>
+ <anim id='70' isLoop='false' commandName='stack5' desc='Gest gangowy.' category='Gang' block='GHANDS' updatePosition='true' anim='gsign3' customAnim=false></anim>
+ <anim id='71' isLoop='false' commandName='stack6' desc='Gest gangowy.' category='Gang' block='GHANDS' updatePosition='true' anim='gsign3LH' customAnim=false></anim>
+ <anim id='72' isLoop='false' commandName='stack7' desc='Gest gangowy.' category='Gang' block='GHANDS' updatePosition='true' anim='gsign4' customAnim=false></anim>
+ <anim id='73' isLoop='false' commandName='stack8' desc='Gest gangowy.' category='Gang' block='GHANDS' updatePosition='true' anim='gsign4LH' customAnim=false></anim>
+ <anim id='74' isLoop='false' commandName='stack9' desc='Gest gangowy.' category='Gang' block='GHANDS' updatePosition='true' anim='gsign5' customAnim=false></anim>
+ <anim id='75' isLoop='false' commandName='stack10' desc='Gest gangowy.' category='Gang' block='GHANDS' updatePosition='true' anim='gsign5LH' customAnim=false></anim>
+ <anim id='76' isLoop='false' commandName='stack11' desc='Gest gangowy.' category='Gang' block='LOWRIDER' updatePosition='true' anim='prtial_gngtlkB' customAnim=false></anim>
+ <anim id='77' isLoop='false' commandName='stack12' desc='Gest gangowy.' category='Gang' block='LOWRIDER' updatePosition='true' anim='prtial_gngtlkC' customAnim=false></anim>
+ <anim id='78' isLoop='false' commandName='stack13' desc='Gest gangowy.' category='Gang' block='LOWRIDER' updatePosition='true' anim='prtial_gngtlkD' customAnim=false></anim>
+ <anim id='79' isLoop='false' commandName='stack14' desc='Gest gangowy.' category='Gang' block='LOWRIDER' updatePosition='true' anim='prtial_gngtlkE' customAnim=false></anim>
+ <anim id='80' isLoop='false' commandName='stack15' desc='Gest gangowy.' category='Gang' block='LOWRIDER' updatePosition='true' anim='prtial_gngtlkF' customAnim=false></anim>
+ <anim id='81' isLoop='false' commandName='stack16' desc='Gest gangowy.' category='Gang' block='LOWRIDER' updatePosition='true' anim='prtial_gngtlkG' customAnim=false></anim>
+ <anim id='82' isLoop='false' commandName='stack17' desc='Gest gangowy.' category='Gang' block='LOWRIDER' updatePosition='true' anim='prtial_gngtlkH' customAnim=false></anim>
+ <anim id='83' isLoop='false' commandName='celuj' desc='Celowanie karabinem na stojąco.' category='Walka' block='SHOP' updatePosition='false' anim='SHP_Gun_Aim' customAnim=false></anim>
+ <anim id='84' isLoop='false' commandName='celuj2' desc='Celowanie - pistolet w obu dłoniach, rozkrok.' category='Walka' block='ped' updatePosition='false' anim='ARRESTgun' customAnim=false></anim>
+ <anim id='85' isLoop='true' commandName='napad' desc='Celowanie w ofiarę przy pomocy jednej ręki.' category='Walka' block='SHOP' updatePosition='false' anim='ROB_Loop' customAnim=false></anim>
+ <anim id='86' isLoop='false' commandName='siekiera' desc='Postać rąbiąca coś siekierą.' category='Walka' block='SWORD' updatePosition='false' anim='sword_4' customAnim=false></anim>
+ <anim id='87' isLoop='true' commandName='garda' desc='Trzymanie gardy.' category='Walka' block='ped' updatePosition='false' anim='FIGHTIDLE' customAnim=false></anim>
+ <anim id='88' isLoop='false' commandName='uderz' desc='Uderzenie z pięści.' category='Walka' block='RIOT' updatePosition='false' anim='RIOT_PUNCHES' customAnim=false></anim>
+ <anim id='89' isLoop='false' commandName='bitchslap' desc='Bezlitosne przyłożenie.' category='Walka' block='MISC' updatePosition='false' anim='bitchslap' customAnim=false></anim>
+ <anim id='90' isLoop='false' commandName='dobij' desc='Cios dobijający leżącego przeciwnika.' category='Walka' block='FIGHT_B' updatePosition='false' anim='FightB_G' customAnim=false></anim>
+ <anim id='91' isLoop='true' commandName='pijak' desc='Chód pijaną postacią.' category='Chód' block='ped' updatePosition='true' anim='WALK_drunk' customAnim=false></anim>
+ <anim id='92' isLoop='true' commandName='idz1' desc='Idąca postać w wersji cywilnej.' category='Chód' block='ped' updatePosition='true' anim='WALK_civi' customAnim=false></anim>
+ <anim id='93' isLoop='true' commandName='idz2' desc='Animacja chodzenia CJ-a.' category='Chód' block='ped' updatePosition='true' anim='WALK_player' customAnim=false></anim>
+ <anim id='94' isLoop='true' commandName='idz3' desc='Animacja chodzenia dla napakowanej postaci.' category='Chód' block='MUSCULAR' updatePosition='true' anim='MuscleWalk' customAnim=false></anim>
+ <anim id='95' isLoop='true' commandName='idz4' desc='Idąca gangsterska postać w wersji pierwszej.' category='Chód' block='ped' updatePosition='true' anim='WALK_gang1' customAnim=false></anim>
+ <anim id='96' isLoop='true' commandName='idz5' desc='Idąca gangsterska postać w drugiej wersji.' category='Chód' block='ped' updatePosition='true' anim='WALK_gang2' customAnim=false></anim>
+ <anim id='97' isLoop='true' commandName='idz6' desc='Chodząca, otyła postać.' category='Chód' block='ped' updatePosition='true' anim='WALK_fat' customAnim=false></anim>
+ <anim id='98' isLoop='true' commandName='idz7' desc='Animacja chodzenia starszego mężczyzny.' category='Chód' block='ped' updatePosition='true' anim='WALK_old' customAnim=false></anim>
+ <anim id='99' isLoop='true' commandName='idz8' desc='Pogarbiona, idąca postać.' category='Chód' block='ped' updatePosition='true' anim='WALK_shuffle' customAnim=false></anim>
+ <anim id='100' isLoop='true' commandName='idz9' desc='Animacja chodzenia z wystawioną ręka do przodu.' category='Chód' block='ped' updatePosition='true' anim='Walk_Wuzi' customAnim=false></anim>
+ <anim id='101' isLoop='true' commandName='idz10' desc='Chód ala zombie.' category='Chód' block='ped' updatePosition='true' anim='WOMAN_walkshop' customAnim=false></anim>
+ <anim id='102' isLoop='true' commandName='kidz1' desc='Damski chód w wersji pierwszej.' category='Chód' block='ped' updatePosition='true' anim='WOMAN_walknorm' customAnim=false></anim>
+ <anim id='103' isLoop='true' commandName='kidz2' desc='Damska animacja chodzenia w wersji drugiej.' category='Chód' block='ped' updatePosition='true' anim='WOMAN_walksexy' customAnim=false></anim>
+ <anim id='104' isLoop='true' commandName='kidz3' desc='Chód bizneswomen.' category='Chód' block='ped' updatePosition='true' anim='WOMAN_walkbusy' customAnim=false></anim>
+ <anim id='105' isLoop='true' commandName='kidz4' desc='Animacja chodzenia prostytutki.' category='Chód' block='ped' updatePosition='true' anim='WOMAN_walkpro' customAnim=false></anim>
+ <anim id='106' isLoop='true' commandName='kidz5' desc='Chód starszej kobiety.' category='Chód' block='ped' updatePosition='true' anim='WOMAN_walkold' customAnim=false></anim>
+ <anim id='107' isLoop='false' commandName='umyjrece' desc='Bardzo neutralna animacja. Powstała jednak z myślą o myciu rąk' category='Stanie' block='BD_Fire' updatePosition='true' anim='wash_up' customAnim=false></anim>
+ <anim id='108' isLoop='false' commandName='pociagnij' desc='Postać ciągnie coś w prawo.' category='Stanie' block='airport' updatePosition='false' anim='thrw_barl_thrw' customAnim=false></anim>
+ <anim id='109' isLoop='false' commandName='podnies' desc='Podnoszenie z podłoża jakiegoś przedmiotu.' category='Stanie' block='BOMBER' updatePosition='true' anim='BOM_Plant' customAnim=false></anim>
+ <anim id='110' isLoop='true' commandName='naprawiaj' desc='Reperowanie podwozia pojazdu.' category='Stanie' block='CAR' updatePosition='false' anim='Fixn_Car_Loop' customAnim=false></anim>
+ <anim id='111' isLoop='false' commandName='cartalk' desc='Rozmowa przez okno samochodu.' category='Stanie' block='CAR_CHAT' updatePosition='true' anim='car_talkm_loop' customAnim=false></anim>
+ <anim id='112' isLoop='true' commandName='szukaj' desc='Klęczący avatar, przeglądający jakąś zawartość.' category='Stanie' block='COP_AMBIENT' updatePosition='false' anim='Copbrowse_loop' customAnim=false></anim>
+ <anim id='113' isLoop='false' commandName='przycisk' desc='Wduszanie przycisku na ścianie.' category='Stanie' block='CRIB' updatePosition='true' anim='CRIB_Use_Switch' customAnim=false></anim>
+ <anim id='114' isLoop='false' commandName='rzygaj' desc='Grrr... za dużo bigosu.' category='Stanie' block='FOOD' updatePosition='true' anim='EAT_Vomit_P' customAnim=false></anim>
+ <anim id='115' isLoop='true' commandName='crack' desc='Ćpun!' category='Stanie' block='Crack' updatePosition='false' anim='crckdeth2' customAnim=false></anim>
+ <anim id='116' isLoop='false' commandName='wyciagnij' desc='Avatar wyjmujący na ladę jakąś rzecz.' category='Stanie' block='FOOD' updatePosition='true' anim='SHP_Tray_Lift' customAnim=false></anim>
+ <anim id='117' isLoop='false' commandName='rzuc' desc='Rzucanie przedmiotu sposobem dolnym.' category='Stanie' block='GRENADE' updatePosition='true' anim='WEAPON_throwu' customAnim=false></anim>
+ <anim id='118' isLoop='false' commandName='karta' desc='Skanowanie karty dostępu.' category='Stanie' block='HEIST9' updatePosition='true' anim='Use_SwipeCard' customAnim=false></anim>
+ <anim id='119' isLoop='false' commandName='kasuj' desc='Wklepywanie rachunku przy kasie.' category='Stanie' block='INT_SHOP' updatePosition='true' anim='shop_cashier' customAnim=false></anim>
+ <anim id='120' isLoop='false' commandName='medyk' desc='Udzielanie pomocy medycznej.' category='Stanie' block='MEDIC' updatePosition='true' anim='CPR' customAnim=false></anim>
+ <anim id='121' isLoop='false' commandName='opieraj' desc='Oparcie się plecami o ścianę.' category='Stanie' block='GANGS' updatePosition='true' anim='leanIDLE' customAnim=false></anim>
+ <anim id='122' isLoop='true' commandName='opieraj2' desc='Avatar opierający się lewym barkiem o ścianę.' category='Stanie' block='MISC' updatePosition='true' anim='Plyrlean_loop' customAnim=false></anim>
+ <anim id='123' isLoop='false' commandName='drapjaja' desc='Intensywne drapanie krocza.' category='Stanie' block='MISC' updatePosition='true' anim='Scratchballs_01' customAnim=false></anim>
+ <anim id='124' isLoop='false' commandName='upadnij' desc='Upadek do tyłu na plecy z uprzednią wywrotką.' category='Stanie' block='SWORD' updatePosition='true' anim='Sword_Hit_3' customAnim=false></anim>
+ <anim id='125' isLoop='true' commandName='ranny' desc='Ranna postać podparta na kolanach.' category='Stanie' block='SWEET' updatePosition='false' anim='Sweet_injuredloop' customAnim=false></anim>
+ <anim id='126' isLoop='true' commandName='ranny2' desc='Ranna postać leżąca na podłożu.' category='Stanie' block='SWAT' updatePosition='false' anim='gnstwall_injurd' customAnim=false></anim>
+ <anim id='127' isLoop='false' commandName='zerknijl' desc='Zerkanie za róg - lewa strona.' category='Stanie' block='SWAT' updatePosition='false' anim='swt_wllpk_L' customAnim=false></anim>
+ <anim id='128' isLoop='false' commandName='zerknijp' desc='Zerkanie za róg - prawa strona.' category='Stanie' block='SWAT' updatePosition='false' anim='swt_wllpk_R' customAnim=false></anim>
+ <anim id='129' isLoop='false' commandName='spray' desc='Postać tagująca ścianę sprayem.' category='Stanie' block='SPRAYCAN' updatePosition='false' anim='spraycan_fire' customAnim=false></anim>
+ <anim id='130' isLoop='false' commandName='spray2' desc='Postać tagująca ścianę sprayem w drugiej wersji.' category='Stanie' block='SPRAYCAN' updatePosition='false' anim='spraycan_full' customAnim=false></anim>
+ <anim id='131' isLoop='true' commandName='rece' desc='Ręce uniesione w górze.' category='Stanie' block='SHOP' updatePosition='false' anim='SHP_Rob_HandsUp' customAnim=false></anim>
+ <anim id='132' isLoop='false' commandName='rece2' desc='Poddanie się po uprzednim machaniu rękoma.' category='Stanie' block='SHOP' updatePosition='false' anim='SHP_Rob_React' customAnim=false></anim>
+ <anim id='133' isLoop='false' commandName='wywaz' desc='Kopniak nogą.' category='Stanie' block='POLICE' updatePosition='false' anim='Door_Kick' customAnim=false></anim>
+ <anim id='134' isLoop='false' commandName='rozciagaj' desc='Mała rozgrzewka.' category='Stanie' block='PLAYIDLES' updatePosition='false' anim='stretch' customAnim=false></anim>
+ <anim id='135' isLoop='false' commandName='chowaj' desc='Przykucnięcie z osłanianiem głowy.' category='Stanie' block='ped' updatePosition='false' anim='cower' customAnim=false></anim>
+ <anim id='136' isLoop='false' commandName='unik' desc='Unik z zanurkowaniem do przodu.' category='Stanie' block='ped' updatePosition='true' anim='EV_dive' customAnim=false></anim>
+ <anim id='137' isLoop='false' commandName='unik2' desc='Unik z krokiem do tyłu.' category='Stanie' block='ped' updatePosition='true' anim='EV_step' customAnim=false></anim>
+ <anim id='138' isLoop='true' commandName='padaczka' desc='Postać leżąca na brzuchu i trzęsąca się.' category='Stanie' block='ped' updatePosition='false' anim='FLOOR_hit_f' customAnim=false></anim>
+ <anim id='139' isLoop='true' commandName='padaczka2' desc='Postać leżąca na plecach i trzęsąca się.' category='Stanie' block='ped' updatePosition='false' anim='FLOOR_hit' customAnim=false></anim>
+ <anim id='140' isLoop='false' commandName='koks' desc='Co tu dużo pisać - koksu.' category='Stanie' block='ped' updatePosition='false' anim='IDLE_HBHB' customAnim=false></anim>
+ <anim id='141' isLoop='false' commandName='rozgladaj' desc='Rozglądanie się po okolicy.' category='Stanie' block='ped' updatePosition='false' anim='roadcross' customAnim=false></anim>
+ <anim id='142' isLoop='false' commandName='lokiec' desc='Zimny łokieć po stronie kierowcy.' category='Stanie' block='ped' updatePosition='false' anim='Tap_hand' customAnim=false></anim>
+ <anim id='143' isLoop='false' commandName='lokiecp' desc='Zimny łokieć po stronie pasażera.' category='Stanie' block='ped' updatePosition='false' anim='Tap_handP' customAnim=false></anim>
+ <anim id='144' isLoop='true' commandName='sikaj' desc='Animacja oddawania moczu.' category='Stanie' block='PAULNMAC' updatePosition='false' anim='Piss_loop' customAnim=false></anim>
+ <anim id='145' isLoop='true' commandName='masturbacja' desc='Samogwałt.' category='Stanie' block='PAULNMAC' updatePosition='false' anim='wank_loop' customAnim=false></anim>
+ <anim id='146' isLoop='true' commandName='taichi' desc='Ćwiczenia Tai Chi.' category='Stanie' block='PARK' updatePosition='false' anim='Tai_Chi_loop' customAnim=false></anim>
+ <anim id='147' isLoop='false' commandName='podpisz' desc='Podpisywanie czegoś.' category='Stanie' block='OTB' updatePosition='false' anim='betslp_loop' customAnim=false></anim>
+ <anim id='148' isLoop='false' commandName='lornetka' desc='Postać przypominająca pozycję spoglądania przez lornetkę.' category='Stanie' block='ON_LOOKERS' updatePosition='false' anim='shout_loop' customAnim=false></anim>
+ <anim id='149' isLoop='false' commandName='czapka' desc='Postać zakładająca czapkę na głowę.' category='Stanie' block='goggles' updatePosition='true' anim='goggles_put_on' customAnim=false></anim>
+ <anim id='150' isLoop='true' commandName='aparat' desc='false' category='Stanie' block='CAMERA' updatePosition='false' anim='camcrch_idleloop' customAnim=false></anim>
+ <anim id='151' isLoop='false' commandName='zamow' desc='Zamawianie posiłku.' category='Stanie' block='bar' updatePosition='true' anim='Barcustom_order' customAnim=false></anim>
+ <anim id='152' isLoop='false' commandName='rzuc2' desc='Rzucanie przedmiotu sposobem górnym.' category='Stanie' block='baseball' updatePosition='false' anim='Bat_M' customAnim=false></anim>
+ <anim id='153' isLoop='true' commandName='rozgladaj2' desc='Rozglądanie się z góry.' category='Stanie' block='bd_fire' updatePosition='false' anim='BD_Panic_Loop' customAnim=false></anim>
+ <anim id='154' isLoop='false' commandName='miesnie2' desc='Prezentacja mięśni - drugi sposób.' category='Stanie' block='benchpress' updatePosition='false' anim='gym_bp_celebrate' customAnim=false></anim>
+ <anim id='155' isLoop='true' commandName='kosz' desc='Gra w kosza, wykonywanie sztuczki.' category='Stanie' block='bsktball' updatePosition='false' anim='BBALL_idle' customAnim=false></anim>
+ <anim id='156' isLoop='false' commandName='odpedz' desc='Machanie z pogardą.' category='Stanie' block='bsktball' updatePosition='false' anim='BBALL_react_score' customAnim=false></anim>
+ <anim id='157' isLoop='true' commandName='kozluj' desc='Kozłowanie podczas gry w koszykówkę.' category='Chód' block='bsktball' updatePosition='true' anim='BBALL_walk' customAnim=false></anim>
+ <anim id='158' isLoop='false' commandName='podnies2' desc='Podnoszenie jakiegoś przedmiotu z podłoża, sposób drugi.' category='Stanie' block='carry' updatePosition='false' anim='liftup' customAnim=false></anim>
+ <anim id='159' isLoop='false' commandName='odloz' desc='Odkładanie jakiegoś przedmiotu na podłoże.' category='Stanie' block='carry' updatePosition='false' anim='putdwn' customAnim=false></anim>
+ <anim id='160' isLoop='false' commandName='waucie' desc='Animacja odbierania telefonu w aucie.' category='Siedzenie' block='CAR_CHAT' updatePosition='false' anim='carfone_in' customAnim=false></anim>
+ <anim id='161' isLoop='false' commandName='waucie2' desc='Animacja rozłączania telefonu w aucie.' category='Siedzenie' block='CAR_CHAT' updatePosition='false' anim='carfone_out' customAnim=false></anim>
+ <anim id='162' isLoop='false' commandName='waucie3' desc='Jedna z animacji do użycia w pojeździe.' category='Siedzenie' block='CAR_CHAT' updatePosition='false' anim='CAR_Sc1_BL' customAnim=false></anim>
+ <anim id='163' isLoop='false' commandName='waucie4' desc='Wyglądanie przez szybę samochodu.' category='Siedzenie' block='CAR_CHAT' updatePosition='false' anim='CAR_Sc1_BR' customAnim=false></anim>
+ <anim id='164' isLoop='false' commandName='waucie5' desc='Rozglądanie się po samochodzie.' category='Siedzenie' block='CAR_CHAT' updatePosition='false' anim='CAR_Sc1_FL' customAnim=false></anim>
+ <anim id='165' isLoop='false' commandName='waucie6' desc='Grzebanie przy kierownicy w samochodzie.' category='Siedzenie' block='CAR_CHAT' updatePosition='false' anim='CAR_Sc3_BR' customAnim=false></anim>
+ <anim id='166' isLoop='false' commandName='waucie7' desc='Konwersacja z tylnim pasażerem w samochodzie.' category='Siedzenie' block='CAR_CHAT' updatePosition='false' anim='CAR_Sc3_FL' customAnim=false></anim>
+ <anim id='167' isLoop='false' commandName='waucie8' desc='Strojenie radia w samochodzie.' category='Siedzenie' block='CAR_CHAT' updatePosition='false' anim='CAR_Sc4_BL' customAnim=false></anim>
+ <anim id='168' isLoop='false' commandName='waucie9' desc='Rozglądanie się w samochodzie.' category='Siedzenie' block='CAR_CHAT' updatePosition='false' anim='CAR_Sc4_FL' customAnim=false></anim>
+ <anim id='169' isLoop='false' commandName='karty' desc='Sprawdanie kart.' category='Stanie' block='casino' updatePosition='true' anim='cards_loop' customAnim=false></anim>
+ <anim id='170' isLoop='false' commandName='kasyno' desc='Gra w kasynie.' category='Stanie' block='casino' updatePosition='true' anim='cards_win' customAnim=false></anim>
+ <anim id='171' isLoop='false' commandName='kasyno2' desc='Gra w kasynie.' category='Stanie' block='casino' updatePosition='true' anim='Roulette_bet' customAnim=false></anim>
+ <anim id='172' isLoop='false' commandName='kasyno3' desc='Gra w kasynie.' category='Stanie' block='casino' updatePosition='true' anim='Roulette_loop' customAnim=false></anim>
+ <anim id='173' isLoop='false' commandName='kasyno4' desc='Gra w kasynie.' category='Stanie' block='casino' updatePosition='true' anim='Roulette_lose' customAnim=false></anim>
+ <anim id='174' isLoop='false' commandName='kasyno5' desc='Gra w kasynie.' category='Stanie' block='casino' updatePosition='true' anim='Slot_in' customAnim=false></anim>
+ <anim id='175' isLoop='false' commandName='kasyno6' desc='Gra w kasynie.' category='Stanie' block='casino' updatePosition='true' anim='Slot_lose_out' customAnim=false></anim>
+ <anim id='176' isLoop='true' commandName='konsola' desc='Gra na konsoli.' category='Stanie' block='CRIB' updatePosition='false' anim='CRIB_Console_Loop' customAnim=false></anim>
+ <anim id='177' isLoop='false' commandName='deal' desc='Ubicie targu.' category='Gang' block='DEALER' updatePosition='true' anim='DEALER_Deal' customAnim=false></anim>
+ <anim id='178' isLoop='false' commandName='zaplac' desc='Zapłacenie z kieszeni.' category='Stanie' block='DEALER' updatePosition='true' anim='shop_pay' customAnim=false></anim>
+ <anim id='179' isLoop='true' commandName='jogging' desc='Uprawianie joggingu.' category='Chód' block='fat' updatePosition='true' anim='FatRun' customAnim=false></anim>
+ <anim id='180' isLoop='false' commandName='wykop' desc='Profesjonalny wykop.' category='Walka' block='fight_c' updatePosition='true' anim='FightC_2' customAnim=false></anim>
+ <anim id='181' isLoop='false' commandName='uderz2' desc='Delikatne uderzenie.' category='Walka' block='fight_d' updatePosition='true' anim='FightD_M' customAnim=false></anim>
+ <anim id='182' isLoop='false' commandName='podlej' desc='Podlewanie roślinności.' category='Stanie' block='flame' updatePosition='false' anim='FLAME_fire' customAnim=false></anim>
+ <anim id='183' isLoop='true' commandName='jedz' desc='Jedzenie kurczaka.' category='Stanie' block='FOOD' updatePosition='false' anim='EAT_Chicken' customAnim=false></anim>
+ <anim id='184' isLoop='true' commandName='jedz2' desc='Jedzenie pizzy.' category='Stanie' block='FOOD' updatePosition='false' anim='EAT_Pizza' customAnim=false></anim>
+ <anim id='185' isLoop='false' commandName='wywaz2' desc='Wyważanie, wersja druga.' category='Gang' block='GANGS' updatePosition='false' anim='shake_carK' customAnim=false></anim>
+ <anim id='186' isLoop='false' commandName='wywaz3' desc='Wyważanie, wersja trzecia.' category='Gang' block='GANGS' updatePosition='false' anim='shake_carSH' customAnim=false></anim>
+ <anim id='187' isLoop='false' commandName='aprobata' desc='Aprobata.' category='Stanie' block='graffiti' updatePosition='false' anim='graffiti_Chkout' customAnim=false></anim>
+ <anim id='188' isLoop='false' commandName='rzuc3' desc='Bardzo mocny rzut.' category='Stanie' block='grenade' updatePosition='false' anim='Weapon_throw' customAnim=false></anim>
+ <anim id='189' isLoop='true' commandName='boks' desc='Ćwiczenie boksu.' category='Walka' block='gymnasium' updatePosition='false' anim='GYMshadowbox' customAnim=false></anim>
+ <anim id='190' isLoop='true' commandName='spij3' desc='Spanie.' category='Leżenie' block='int_house' updatePosition='true' anim='BED_Loop_L' customAnim=false></anim>
+ <anim id='191' isLoop='true' commandName='biuro' desc='Znudzenie w biurze.' category='Siedzenie' block='int_office' updatePosition='true' anim='OFF_Sit_Bored_Loop' customAnim=false></anim>
+ <anim id='192' isLoop='false' commandName='biuro2' desc='Zdenerwowanie w biurze.' category='Siedzenie' block='int_office' updatePosition='true' anim='OFF_Sit_Crash' customAnim=false></anim>
+ <anim id='193' isLoop='false' commandName='biuro3' desc='Picie w biurze.' category='Siedzenie' block='int_office' updatePosition='true' anim='OFF_Sit_Drink' customAnim=false></anim>
+ <anim id='194' isLoop='false' commandName='biuro4' desc='Spoglądanie na szafkę w biurze.' category='Siedzenie' block='int_office' updatePosition='true' anim='OFF_Sit_Read' customAnim=false></anim>
+ <anim id='195' isLoop='true' commandName='biuro5' desc='Pisanie na komputerze w biurze.' category='Siedzenie' block='int_office' updatePosition='true' anim='OFF_Sit_Type_Loop' customAnim=false></anim>
+ <anim id='196' isLoop='false' commandName='kasa' desc='Obsługa kasy fiskalnej.' category='Stanie' block='int_shop' updatePosition='true' anim='shop_cashier' customAnim=false></anim>
+ <anim id='197' isLoop='false' commandName='prezent' desc='Dawanie prezentu.' category='Stanie' block='kissing' updatePosition='true' anim='gift_give' customAnim=false></anim>
+ <anim id='198' isLoop='false' commandName='prezent2' desc='Odbieranie prezentu.' category='Stanie' block='kissing' updatePosition='true' anim='gift_get' customAnim=false></anim>
+ <anim id='199' isLoop='false' commandName='plaskacz' desc='Uderzenie kogoś z płaskiej ręki.' category='Walka' block='knife' updatePosition='true' anim='knife_part' customAnim=false></anim>
+ <anim id='200' isLoop='false' commandName='rowerwolaj' desc='Zawołanie kogoś siedząc na rowerze.' category='Stanie' block='misc' updatePosition='true' anim='BMX_comeon' customAnim=false></anim>
+ <anim id='201' isLoop='false' commandName='pukaj2' desc='Pukanie, wersja druga.' category='Stanie' block='misc' updatePosition='true' anim='bng_wndw' customAnim=false></anim>
+ <anim id='202' isLoop='true' commandName='przemowienie' desc='Przemówienie.' category='Stanie' block='misc' updatePosition='true' anim='Idle_Chat_02' customAnim=false></anim>
+ <anim id='203' isLoop='false' commandName='dzwignia' desc='Dźwignia.' category='Stanie' block='misc' updatePosition='true' anim='Plunger_01' customAnim=false></anim>
+ <anim id='204' isLoop='false' commandName='krzeslo3' desc='3 sposób siedzenia, rozmowa.' category='Siedzenie' block='misc' updatePosition='true' anim='Seat_talk_01' customAnim=false></anim>
+ <anim id='205' isLoop='false' commandName='rozgladaj3' desc='3 sposób rozglądania się.' category='Stanie' block='on_lookers' updatePosition='false' anim='lkaround_loop' customAnim=false></anim>
+ <anim id='206' isLoop='false' commandName='smrod' desc='Gest smrodu.' category='Stanie' block='on_lookers' updatePosition='false' anim='panic_loop' customAnim=false></anim>
+ <anim id='207' isLoop='true' commandName='foch2' desc='Okazanie focha.' category='Stanie' block='otb' updatePosition='false' anim='wtchrace_loop' customAnim=false></anim>
+ <anim id='208' isLoop='false' commandName='maska' desc='Rzut na maskę.' category='Stanie' block='police' updatePosition='true' anim='crm_drgbst_01' customAnim=false></anim>
+ <anim id='209' isLoop='true' commandName='skradaj' desc='Skradanie się.' category='Chód' block='police' updatePosition='true' anim='Cop_move_FWD' customAnim=false></anim>
+ <anim id='210' isLoop='false' commandName='billard1' desc='Gra w billarda, smarowanie kija.' category='Stanie' block='pool' updatePosition='false' anim='POOL_ChalkCue' customAnim=false></anim>
+ <anim id='211' isLoop='false' commandName='billard2' desc='Gra w billarda, zagrywka.' category='Stanie' block='pool' updatePosition='false' anim='POOL_Long_Shot' customAnim=false></anim>
+ <anim id='212' isLoop='false' commandName='billard3' desc='Gra w billarda, wyciąganie bili.' category='Stanie' block='pool' updatePosition='false' anim='POOL_Place_White' customAnim=false></anim>
+ <anim id='213' isLoop='false' commandName='rece3' desc='Powolne podnoszenie rąk.' category='Stanie' block='rob_bank' updatePosition='true' anim='SHP_HandsUp_Scr' customAnim=false></anim>
+ <anim id='214' isLoop='false' commandName='podejdz2' desc='Gest zaproszenia do siebie.' category='Stanie' block='ryder' updatePosition='true' anim='RYD_Beckon_01' customAnim=false></anim>
+ <anim id='215' isLoop='false' commandName='podejdz3' desc='Gest zaproszenia do siebie.' category='Stanie' block='ryder' updatePosition='true' anim='RYD_Beckon_02' customAnim=false></anim>
+ <anim id='216' isLoop='false' commandName='olej' desc='Gest olania kogoś/czegoś.' category='Stanie' block='ryder' updatePosition='true' anim='RYD_Beckon_03' customAnim=false></anim>
+ <anim id='217' isLoop='false' commandName='uszy' desc='Zatykanie uszu.' category='Stanie' block='shop' updatePosition='true' anim='ROB_Shifty' customAnim=false></anim>
+ <anim id='218' isLoop='false' commandName='strip' desc='Podanie striptizerce pieniędzy.' category='Stanie' block='strip' updatePosition='true' anim='PLY_CASH' customAnim=false></anim>
+ <anim id='219' isLoop='false' commandName='strip2' desc='Podanie striptizerce pieniędzy.' category='Stanie' block='strip' updatePosition='true' anim='PUN_CASH' customAnim=false></anim>
+ <anim id='220' isLoop='false' commandName='strip2' desc='Okrzyk w stripklubie.' category='Stanie' block='strip' updatePosition='true' anim='PUN_HOLLER' customAnim=false></anim>
+ <anim id='221' isLoop='false' commandName='ok' desc='Ok.' category='Stanie' block='swat' updatePosition='true' anim='swt_sty' customAnim=false></anim>
+ <anim id='222' isLoop='false' commandName='zostan' desc='Lepiej zostań, gest.' category='Stanie' block='swat' updatePosition='true' anim='swt_lkt' customAnim=false></anim>
+ <anim id='223' isLoop='false' commandName='oburzenie' desc='Oburz się po klapsie.' category='Stanie' block='sweet' updatePosition='true' anim='ho_ass_slapped' customAnim=false></anim>
+ <anim id='224' isLoop='true' commandName='rozgladaj4' desc='Rozglądanie się.' category='Stanie' block='sweet' updatePosition='false' anim='plyr_hndshldr_01' customAnim=false></anim>
+ <anim id='225' isLoop='false' commandName='przetnij' desc='Przecinanie czegoś szablą.' category='Stanie' block='sword' updatePosition='true' anim='sword_part' customAnim=false></anim>
+ <anim id='226' isLoop='false' commandName='podejdz4' desc='Zapraszanie kogoś do siebie, od tyłu.' category='Stanie' block='wuzi' updatePosition='true' anim='Wuzi_follow' customAnim=false></anim>
+ <anim id='227' isLoop='false' commandName='dyryguj' desc='Dyrygowanie.' category='Stanie' block='wuzi' updatePosition='true' anim='Wuzi_Greet_Wuzi' customAnim=false></anim>
+ <anim id='228' isLoop='false' commandName='przysiad' desc='Przysiad.' category='Stanie' block='wuzi' updatePosition='true' anim='Wuzi_grnd_chk' customAnim=false></anim>
+ <anim id='229' isLoop='false' commandName='bacznosc' desc='Baczność!' category='Stanie' block='wuzi' updatePosition='false' anim='Wuzi_stand_loop' customAnim=false></anim>
+ <anim id='230' isLoop='true' commandName='koszbron' desc='Gra w kosza, obrona.' category='Stanie' block='BSKTBALL' updatePosition='false' anim='BBALL_def_loop' customAnim=false></anim>
+ <anim id='231' isLoop='false' commandName='koszrzut' desc='Gra w kosza, rzut.' category='Stanie' block='BSKTBALL' updatePosition='true' anim='BBALL_Jump_shot' customAnim=false></anim>
+ <anim id='232' isLoop='false' commandName='koks2' desc='Stanie jak prawdziwy koks!' category='Stanie' block='DEALER' updatePosition='true' anim='DEALER_IDLE' customAnim=false></anim>
+ <anim id='233' isLoop='false' commandName='wygrana' desc='Wygrana!' category='Stanie' block='CASINO' updatePosition='false' anim='manwinb' customAnim=false></anim>
+ <anim id='234' isLoop='false' commandName='lowgirl' desc='Dziewczyna na lowriderze.' category='Siedzenie' block='LOWRIDER' updatePosition='false' anim='lrgirl_hair' customAnim=false></anim>
+ <anim id='235' isLoop='false' commandName='lowgirl2' desc='Dziewczyna na lowriderze.' category='Stanie' block='LOWRIDER' updatePosition='false' anim='lrgirl_l2_to_l3' customAnim=false></anim>
+ <anim id='236' isLoop='true' commandName='lowgirl3' desc='Dziewczyna na lowriderze.' category='Stanie' block='LOWRIDER' updatePosition='false' anim='lrgirl_l5_loop' customAnim=false></anim>
+ <anim id='237' isLoop='false' commandName='tak' desc='Potwierdzenie.' category='Stanie' block='GANGS' updatePosition='false' anim='Invite_Yes' customAnim=false></anim>
+ <anim id='238' isLoop='false' commandName='nie2' desc='Odrzucenie.' category='Stanie' block='GANGS' updatePosition='false' anim='Invite_No' customAnim=false></anim>
+ <anim id='239' isLoop='false' commandName='ziewnij' desc='Ziewanie.' category='Stanie' block='GANGS' updatePosition='false' anim='smkcig_prtl' customAnim=false></anim>
+ <anim id='240' isLoop='false' commandName='zgon' desc='Zgon.' category='Stanie' block='CRACK' updatePosition='false' anim='crckidle4' customAnim=false></anim>
+ <anim id='241' isLoop='true' commandName='rozmowa' desc='Rozmawianie.' category='Stanie' block='ped' updatePosition='true' anim='idle_chat' customAnim=false></anim>
+ <anim id='241' isLoop='true' commandName='gtalk1' desc='Gestykulacja podczas rozmowy.' category='Stanie' block='GANGS' updatePosition='true' anim='prtial_gngtlkA' customAnim=false></anim>
+ <anim id='242' isLoop='true' commandName='gtalk2' desc='Gestykulacja podczas rozmowy.' category='Stanie' block='GANGS' updatePosition='true' anim='prtial_gngtlkB' customAnim=false></anim>
+ <anim id='243' isLoop='true' commandName='gtalk3' desc='Gestykulacja podczas rozmowy.' category='Stanie' block='GANGS' updatePosition='true' anim='prtial_gngtlkC' customAnim=false></anim>
+ <anim id='244' isLoop='true' commandName='gtalk4' desc='Gestykulacja podczas rozmowy.' category='Stanie' block='GANGS' updatePosition='true' anim='prtial_gngtlkD' customAnim=false></anim>
+ <anim id='245' isLoop='true' commandName='gtalk5' desc='Gestykulacja podczas rozmowy.' category='Stanie' block='GANGS' updatePosition='true' anim='prtial_gngtlkE' customAnim=false></anim>
+ <anim id='246' isLoop='true' commandName='gtalk6' desc='Gestykulacja podczas rozmowy.' category='Stanie' block='GANGS' updatePosition='true' anim='prtial_gngtlkF' customAnim=false></anim>
+ <anim id='247' isLoop='true' commandName='gtalk7' desc='Gestykulacja podczas rozmowy.' category='Stanie' block='GANGS' updatePosition='true' anim='prtial_gngtlkG' customAnim=false></anim>
+ <anim id='248' isLoop='true' commandName='gtalk8' desc='Gestykulacja podczas rozmowy.' category='Stanie' block='GANGS' updatePosition='true' anim='prtial_gngtlkH' customAnim=false></anim>
+ <anim id='249' isLoop='false' commandName='bathit' desc='Otrzymanie uderzenia kijem.' category='Stanie' block='BASEBALL' updatePosition='true' anim='Bat_Hit_3' customAnim=false></anim>
+ <anim id='250' isLoop='true' commandName='papieros' desc='Opieranie podczas palenia papierosa.' category='Stanie' block='SMOKING' updatePosition='false' anim='M_smklean_loop' customAnim=false></anim>
+ <anim id='251' isLoop='true' commandName='kamera' desc='Trzymanie kamery.' category='Stanie' block='CAMERA' updatePosition='false' anim='camstnd_idleloop' customAnim=false></anim>
+ <anim id='252' isLoop='false' commandName='zdjecie1' desc='Trzymanie aparatu.' category='Stanie' block='CAMERA' updatePosition='false' anim='picstnd_in' customAnim=false></anim>
+ <anim id='253' isLoop='true' commandName='zdjecie2' desc='Trzymanie aparatu kucając.' category='Stanie' block='CAMERA' updatePosition='false' anim='piccrch_take' customAnim=false></anim>
+ <anim id='254' isLoop='true' commandName='bar4' desc='Stanie za barem.' category='Stanie' block='BAR' updatePosition='false' anim='barcustom_loop' customAnim=false></anim>
+ <anim id='255' isLoop='false' commandName='bat1' desc='Uderzenie kijem w ziemie.' category='Stanie' block='BASEBALL' updatePosition='true' anim='Bat_Hit_3' customAnim=false></anim>
+ <anim id='256' isLoop='true' commandName='dealer1' desc='Animacja dealera podczas sprzedazy' category='Stanie' block='DEALER' updatePosition='false' anim='DEALER_IDLE_03' customAnim=false></anim>
+ <anim id='257' isLoop='true' commandName='dealer2' desc='Animacja dealera podczas sprzedazy' category='Stanie' block='DEALER' updatePosition='false' anim='DEALER_IDLE_02' customAnim=false></anim>
+ <anim id='258' isLoop='true' commandName='zgon2' desc='Zgon.' category='Stanie' block='CRACK' updatePosition='false' anim='crckidle3' customAnim=false></anim>
+ <anim id='259' isLoop='true' commandName='siad2' desc='Siadanie.' category='Siedzenie' block='TATTOOS' updatePosition='false' anim='TAT_Sit_Loop_P' customAnim=false></anim>
+ <anim id='260' isLoop='true' commandName='siad3' desc='Siadanie.' category='Siedzenie' block='TATTOOS' updatePosition='false' anim='TAT_Sit_Out_T' customAnim=false></anim>
+ <anim id='261' isLoop='true' commandName='krzeslo3' desc='Siadanie.' category='Siedzenie' block='TATTOOS' updatePosition='false' anim='TAT_Back_Sit_Loop_P' customAnim=false></anim>
+ <anim id='262' isLoop='true' commandName='lada' desc='Stanie za ladą.' category='Stanie' block='SHOP' updatePosition='false' anim='SHP_Serve_Idle' customAnim=false></anim>
+ <anim id='263' isLoop='true' commandName='papieros2' desc='Palenie papierosa.' category='Stanie' block='SHOP' updatePosition='false' anim='Smoke_RYD' customAnim=false></anim>
+ <anim id='264' isLoop='true' commandName='dj1' desc='Animacja DJa.' category='Taniec' block='SCRATCHING' updatePosition='false' anim='scdlulp' customAnim=false></anim>
+ <anim id='265' isLoop='true' commandName='dj2' desc='Animacja DJa.' category='Taniec' block='SCRATCHING' updatePosition='false' anim='scdrulp' customAnim=false></anim>
+ <anim id='266' isLoop='true' commandName='dj3' desc='Animacja DJa.' category='Taniec' block='SCRATCHING' updatePosition='false' anim='sclng_r' customAnim=false></anim>
+ <anim id='267' isLoop='true' commandName='dj4' desc='Animacja DJa.' category='Taniec' block='SCRATCHING' updatePosition='false' anim='scmid_l' customAnim=false></anim>
+ <anim id='268' isLoop='false' commandName='zbierz' desc='Zbieranie łupu.' category='Stanie' block='ROB_BANK' updatePosition='false' anim='CAT_Safe_Rob' customAnim=false></anim>
+ <anim id='269' isLoop='true' commandName='fotel3' desc='Rozsiadanie się na fotelu.' category='Siedzenie' block='HAIRCUTS' updatePosition='false' anim='BRB_Sit_Loop' customAnim=false></anim>
+ <anim id='270' isLoop='true' commandName='strip1' desc='Taniec go-go.' category='Taniec' block='STRIP' updatePosition='false' anim='STR_Loop_A' customAnim=false></anim>
+ <anim id='271' isLoop='true' commandName='strip2' desc='Taniec go-go.' category='Taniec' block='STRIP' updatePosition='false' anim='STR_Loop_B' customAnim=false></anim>
+ <anim id='272' isLoop='true' commandName='strip3' desc='Taniec go-go.' category='Taniec' block='STRIP' updatePosition='false' anim='STR_Loop_C' customAnim=false></anim>
+ <anim id='273' isLoop='true' commandName='tancz11' desc='Taniec.' category='Taniec' block='STRIP' updatePosition='false' anim='strip_A' customAnim=false></anim>
+ <anim id='274' isLoop='true' commandName='tancz12' desc='Taniec.' category='Taniec' block='STRIP' updatePosition='false' anim='strip_B' customAnim=false></anim>
+ 
+ 
+ <anim id='275' isLoop='false' commandName='ognisko' desc='Siedzenie przy ognisku' category='Custom' block='beachlying.Block' updatePosition='false' anim='ParkSit_M_loop' customAnim=true></anim>
+ <anim id='276' isLoop='false' commandName='parkour' desc='Parkour pierwszy' category='Custom' block='test.myNewBlock' updatePosition='false' anim='BckHndSpingBTuck' customAnim=true></anim>
+ <anim id='277' isLoop='false' commandName='parkour2' desc='Parkour drugi' category='Custom' block='test.myNewBlock' updatePosition='false' anim='BckHndSping' customAnim=true></anim>
+ <anim id='278' isLoop='false' commandName='parkour3' desc='Parkour trzeci' category='Custom' block='test.myNewBlock' updatePosition='false' anim='CartWheel' customAnim=true></anim>
+ <anim id='279' isLoop='false' commandName='parkour4' desc='Parkour czwarty' category='Custom' block='test.myNewBlock' updatePosition='false' anim='FrntHndSpring' customAnim=true></anim>
+ <anim id='280' isLoop='false' commandName='parkour5' desc='Parkour piaty' category='Custom' block='test.myNewBlock' updatePosition='false' anim='HandPlant' customAnim=true></anim>
+ <anim id='281' isLoop='true' commandName='pompki' desc='Pompki' category='Custom' block='pompki.Block' updatePosition='false' anim='ParkSit_W_loop' customAnim=true></anim>
+ <anim id='282' isLoop='true' commandName='beach' desc='Beach pierwszy' category='Siedzenie' block='beach.Block' updatePosition='false' anim='ParkSit_W_loop' customAnim=true></anim>
+ <anim id='283' isLoop='true' commandName='beach2' desc='Beach drugi' category='Siedzenie' block='beach.Block' updatePosition='false' anim='SitnWait_loop_W' customAnim=true></anim>
+ <anim id='284' isLoop='true' commandName='beach3' desc='Beach trzeci' category='Leżenie' block='beach.Block' updatePosition='false' anim='Lay_Bac_Loop' customAnim=true></anim>
+ <anim id='285' isLoop='true' commandName='beach4' desc='Beach czwarty' category='Siedzenie' block='beachlying.Block' updatePosition='false' anim='ParkSit_M_loop' customAnim=true></anim>
+ <anim id='286' isLoop='true' commandName='beach5' desc='Beach piaty' category='Leżenie' block='beachlying.Block' updatePosition='false' anim='SitnWait_loop_W' customAnim=true></anim>
+ <anim id='287' isLoop='true' commandName='facetsiedz' desc='Facet siedz' category='Siedzenie' block='facetsiedzenie.Block' updatePosition='false' anim='ParkSit_M_loop' customAnim=true></anim>
+ <anim id='288' isLoop='true' commandName='brzuszki' desc='Brzuszki' category='Custom' block='car.Block' updatePosition='false' anim='Fixn_Car_Loop' customAnim=true></anim>
+ <anim id='289' isLoop='true' commandName='twerk' desc='Twerk' category='Taniec' block='twerk.Block' updatePosition='false' anim='DAN_Down_A' customAnim=true></anim>
+ <anim id='290' isLoop='true' commandName='twerkkrzeslo' desc='Twerk' category='Taniec' block='twerkkrzeslo.Block' updatePosition='false' anim='bather' customAnim=true></anim>
+ <anim id='291' isLoop='true' commandName='Taniecstriptiz' desc='Taniec striptiz' category='Taniec' block='taniecstriptizerka.Block' updatePosition='false' anim='STR_Loop_A' customAnim=true></anim>
+ <anim id='292' isLoop='true' commandName='tpose' desc='T-POSE' category='Custom' block='tpose.Block' updatePosition='false' anim='Coplook_in' customAnim=true></anim>
+ <anim id='293' isLoop='false' commandName='wymioty' desc='Wymiotowanie' category='Custom' block='sittingonknees.Block' updatePosition='false' anim='ParkSit_M_loop' customAnim=true></anim>
+ <anim id='294' isLoop='false' commandName='sexcar' desc='Sex car Start' category='Custom' block='sexcar.Block' updatePosition='false' anim='SEX_Car_Start_W' customAnim=true></anim>
+ <anim id='295' isLoop='true' commandName='sexcar2' desc='Sex car loop' category='Custom' block='sexcar.Block' updatePosition='false' anim='SEX_Car_Loop_W' customAnim=true></anim>
+ <anim id='296' isLoop='false' commandName='sexcar3' desc='Sex car end' category='Custom' block='sexcar.Block' updatePosition='false' anim='SEX_Car_End_W' customAnim=true></anim>
+ <anim id='297' isLoop='false' commandName='skuty' desc='Skuty' category='Custom' block='polup.Block' updatePosition='false' anim='camcrch_cmon' customAnim=true></anim>
+ <anim id='298' isLoop='false' commandName='pozuj' desc='Pozuj' category='Gang' block='ganganims.Block' updatePosition='false' anim='DEALER_IDLE' customAnim=true></anim>
+ <anim id='299' isLoop='false' commandName='pozuj2' desc='Pozuj 2' category='Gang' block='ganganims.Block' updatePosition='false' anim='DEALER_IDLE_02' customAnim=true></anim>
+ <anim id='300' isLoop='true' commandName='pozuj3' desc='Pozuj 3' category='Gang' block='ganganims2.Block' updatePosition='false' anim='RAP_A_Loop' customAnim=true></anim>
+ <anim id='301' isLoop='false' commandName='pozuj4' desc='Pozuj 4' category='Gang' block='ganganims3.Block' updatePosition='false' anim='shift' customAnim=true></anim>
+ <anim id='302' isLoop='false' commandName='pozuj5' desc='Pozuj 5' category='Gang' block='ganganims4.Block' updatePosition='false' anim='Coplook_loop' customAnim=true></anim>
+ <anim id='303' isLoop='false' commandName='pozuj6' desc='Pozuj 6' category='Gang' block='rekawkieszeni.Block' updatePosition='false' anim='Coplook_loop' customAnim=true></anim>
+ <anim id='304' isLoop='false' commandName='beach6' desc='Beach szosty' category='Leżenie' block='lying_down_with_hand_behind_head.Block' updatePosition='false' anim='Lay_Bac_Loop' customAnim=true></anim>
+ <anim id='305' isLoop='true' commandName='taniecustom1' desc='Taniec custom' category='Taniec' block='dance.Block' updatePosition='false' anim='bd_clap' customAnim=true></anim>
+ <anim id='306' isLoop='true' commandName='taniecustom2' desc='Taniec custom' category='Taniec' block='dance.Block' updatePosition='false' anim='bd_clap1' customAnim=true></anim>
+ <anim id='307' isLoop='true' commandName='taniecustom3' desc='Taniec custom' category='Taniec' block='dance.Block' updatePosition='false' anim='DAN_Down_A' customAnim=true></anim>
+ <anim id='308' isLoop='true' commandName='taniecustom4' desc='Taniec custom' category='Taniec' block='dance.Block' updatePosition='false' anim='dnce_M_a' customAnim=true></anim>
+ <anim id='309' isLoop='true' commandName='womansitting' desc='womansitting' category='Custom' block='womansitting.Block' updatePosition='false' anim='bather' customAnim=true></anim>
+ <anim id='310' isLoop='true' commandName='womansitting2' desc='womansitting2' category='Custom' block='womansitting.Block' updatePosition='false' anim='ParkSit_M_loop' customAnim=true></anim>
+ <anim id='311' isLoop='true' commandName='womansitting3' desc='womansitting3' category='Custom' block='womansitting.Block' updatePosition='false' anim='SitnWait_loop_W' customAnim=true></anim>
+ <anim id='312' isLoop='true' commandName='womansitting4' desc='womansitting4' category='Custom' block='womansitting2.Block' updatePosition='false' anim='ParkSit_M_loop' customAnim=true></anim>
+ <anim id='313' isLoop='true' commandName='womansitting5' desc='womansitting5' category='Custom' block='womansitting3.Block' updatePosition='false' anim='ParkSit_M_loop' customAnim=true></anim>
+ <anim id='314' isLoop='true' commandName='kolanko' desc='kolanko' category='Custom' block='kolanko.Block' updatePosition='false' anim='ParkSit_M_loop' customAnim=true></anim>
+ <anim id='315' isLoop='true' commandName='rekaplecy' desc='rekaplecy' category='Custom' block='handsbehindback.Block' updatePosition='false' anim='Coplook_loop' customAnim=true></anim>
+ <anim id='316' isLoop='true' commandName='rekaplecy2' desc='rekaplecy2' category='Custom' block='receplecy.Block' updatePosition='false' anim='Coplook_loop' customAnim=true></anim>
+ <anim id='317' isLoop='true' commandName='kucnij' desc='kucnij' category='Siedzenie' block='kucnij.Block' updatePosition='false' anim='camcrch_cmon' customAnim=true></anim>
+ <anim id='318' isLoop='true' commandName='opieranie' desc='opieranie' category='Gang' block='opieraj.Block' updatePosition='false' anim='leanIN' customAnim=true></anim>
+ <anim id='319' isLoop='false' commandName='poddajsie' desc='poddajsie' category='Custom' block='poddajsie.Block' updatePosition='false' anim='SHP_HandsUp_Scr' customAnim=true></anim>
+ <anim id='320' isLoop='true' commandName='beachcustom' desc='beachcustom' category='Custom' block='beach_2.Block' updatePosition='false' anim='bather' customAnim=true></anim>
+ <anim id='321' isLoop='true' commandName='zaslontwarz' desc='zaslontwarz' category='Gang' block='zaslontwarz.Block' updatePosition='false' anim='cards_loop' customAnim=true></anim>
+ <anim id='322' isLoop='true' commandName='beachcustom2' desc='beachcustom2' category='Custom' block='beach3.Block' updatePosition='false' anim='ParkSit_M_loop' customAnim=true></anim>
+ <anim id='323' isLoop='true' commandName='beachcustom3' desc='beachcustom3' category='Custom' block='beach4.Block' updatePosition='false' anim='ParkSit_M_loop' customAnim=true></anim>
+ <anim id='324' isLoop='true' commandName='lapzaglowe' desc='lapzaglowe' category='Custom' block='lapzaglowe.Block' updatePosition='false' anim='Copbrowse_loop' customAnim=true></anim>
+ <anim id='325' isLoop='true' commandName='camerajakas' desc='camerajakas' category='Custom' block='camerajakas.Block' updatePosition='false' anim='camcrch_cmon' customAnim=true></anim>
+ <anim id='326' isLoop='true' commandName='mdchase' desc='camerajakas' category='Custom' block='mdchase.Block' updatePosition='false' anim='MD_HANG_Loop' customAnim=true></anim>
+ <anim id='327' isLoop='true' commandName='rapping1' desc='rapping1' category='Custom' block='rapping1.Block' updatePosition='false' anim='RAP_A_LOOP' customAnim=true></anim>=
+ <anim id='328' isLoop='true' commandName='rapping2' desc='rapping2' category='Custom' block='rapping1.Block' updatePosition='false' anim='RAP_C_Loop' customAnim=true></anim>
+ <anim id='329' isLoop='true' commandName='miscanother' desc='miscanother' category='Custom' block='miscanother.Block' updatePosition='false' anim='Plyrlean_loop' customAnim=true></anim>
+ <anim id='330' isLoop='true' commandName='celuje' desc='celuje' category='Gang' block='dealer.Block' updatePosition='false' anim='DEALER_DEAL' customAnim=true></anim>
+ <anim id='331' isLoop='false' commandName='dead' desc='dead' category='Gang' block='dead.Block' updatePosition='true' anim='CS_Dead_Guy' customAnim=true></anim>
+ <anim id='332' isLoop='false' commandName='dzwon' desc='dzwoni' category='Stanie' block='PED' updatePosition='true' anim='phone_talk' customAnim=true></anim>
+ <anim id='332' isLoop='false' commandName='dzwon2' desc='dzwoni' category='Stanie' block='PED' updatePosition='false' anim='phone_in' customAnim=false></anim>
+ <anim id='333' isLoop='false' commandName='sex1' desc='sex1' category='Custom' block='sex.Block' updatePosition='false' anim='SEX_1to2_P' customAnim=true></anim>
+ <anim id='334' isLoop='false' commandName='sex2' desc='sex1' category='Custom' block='sex.Block' updatePosition='false' anim='SEX_1to2_W' customAnim=true></anim>
+ <anim id='335' isLoop='true' commandName='sex3' desc='sex1' category='Custom' block='sex.Block' updatePosition='false' anim='SEX_1_Cum_P' customAnim=true></anim>
+ <anim id='336' isLoop='true' commandName='sex4' desc='sex1' category='Custom' block='sex.Block' updatePosition='false' anim='SEX_1_Cum_W' customAnim=true></anim>
+ <anim id='337' isLoop='false' commandName='sex5' desc='sex1' category='Custom' block='sex.Block' updatePosition='false' anim='SEX_1_Fail_P' customAnim=true></anim>
+ <anim id='338' isLoop='false' commandName='sex6' desc='sex1' category='Custom' block='sex.Block' updatePosition='false' anim='SEX_1_Fail_W' customAnim=true></anim>
+ <anim id='339' isLoop='false' commandName='sex7' desc='sex1' category='Custom' block='sex.Block' updatePosition='false' anim='SEX_1_Fail_P' customAnim=true></anim>
+ <anim id='340' isLoop='false' commandName='sex8' desc='sex1' category='Custom' block='sex.Block' updatePosition='false' anim='SEX_1_P' customAnim=true></anim>
+ <anim id='341' isLoop='false' commandName='sex9' desc='sex1' category='Custom' block='sex.Block' updatePosition='false' anim='SEX_1_W' customAnim=true></anim>
+ <anim id='342' isLoop='false' commandName='sex10' desc='sex1' category='Custom' block='sex.Block' updatePosition='false' anim='SEX_2to3_P' customAnim=true></anim>
+ <anim id='343' isLoop='false' commandName='sex11' desc='sex1' category='Custom' block='sex.Block' updatePosition='false' anim='SEX_2to3_W' customAnim=true></anim>
+ <anim id='344' isLoop='true' commandName='sex12' desc='sex1' category='Custom' block='sex.Block' updatePosition='false' anim='SEX_2_Fail_P' customAnim=true></anim>
+ <anim id='345' isLoop='false' commandName='sex13' desc='sex1' category='Custom' block='sex.Block' updatePosition='false' anim='SEX_2_Fail_W' customAnim=true></anim>
+ <anim id='346' isLoop='true' commandName='sex14' desc='sex1' category='Custom' block='sex.Block' updatePosition='false' anim='SEX_2_P' customAnim=true></anim>
+ <anim id='347' isLoop='true' commandName='sex15' desc='sex1' category='Custom' block='sex.Block' updatePosition='false' anim='SEX_2_W' customAnim=true></anim>
+ <anim id='348' isLoop='false' commandName='sex16' desc='sex1' category='Custom' block='sex.Block' updatePosition='false' anim='SEX_3to1_P' customAnim=true></anim>
+ <anim id='349' isLoop='false' commandName='sex17' desc='sex1' category='Custom' block='sex.Block' updatePosition='false' anim='SEX_3to1_W' customAnim=true></anim>
+ <anim id='350' isLoop='false' commandName='sex18' desc='sex1' category='Custom' block='sex.Block' updatePosition='false' anim='SEX_3_Fail_P' customAnim=true></anim>
+ <anim id='351' isLoop='false' commandName='sex19' desc='sex1' category='Custom' block='sex.Block' updatePosition='false' anim='SEX_3_Fail_W' customAnim=true></anim>
+ <anim id='352' isLoop='false' commandName='sex20' desc='sex1' category='Custom' block='sex.Block' updatePosition='false' anim='SEX_3_P' customAnim=true></anim>
+
+ <anim id='353' isLoop='true' commandName='sex21' desc='sex1' category='Custom' block='sex.Block' updatePosition='false' anim='SEX_3_W' customAnim=true></anim>
+
+</root>

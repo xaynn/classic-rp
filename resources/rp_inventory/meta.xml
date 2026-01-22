@@ -1,0 +1,40 @@
+<meta>
+
+	<script src="sourceS.lua" type="server"/>
+	<script src="weaponPropertiesS.lua" type="server"/>
+	<script src="fireLocationsS.lua" type="server"/>
+	<script src="itemsS.lua" type="server"/>
+	
+	<script src="sourceC.lua" type="client"/>
+	<script src="itemsC.lua" type="client"/>
+	<script src="onButtonsC.lua" type="client"/>
+	<script src="weaponsBackC.lua" type="client"/>
+	<script src="boomboxC.lua" type="client"/>
+
+	<file src="files/icon_close.png" />
+	<file src="files/icon_oddaj.png" />
+	<file src="files/icon_podziel.png" />
+	<file src="files/icon_use.png" />
+	<file src="files/gunshell.png" />
+	<export function="hasPlayerSetupEQ" type="server" />
+	<export function="updatePlayerItemsInDatabase" type="server" />
+	<export function="giveItemToPlayer" type="server" />
+	<export function="getUsedTypeItem" type="server" />
+	<export function="createCorpse" type="server" />
+	<export function="addItemToPlayer" type="server" />
+	<export function="getItemTypeInInventory" type="server" />
+
+	<export function="getPlayerPhoneData" type="server" />
+	<export function="getPlayerPhoneNumber" type="server" />
+	<export function="findPlayerByNumer" type="server" />
+	<export function="addMessageToPhoneData" type="server" />
+	<export function="getPlayerItems" type="server" />
+	<export function="giveItem" type="server" />
+	<export function="updateItem" type="server" />
+	<export function="useItem" type="server" />
+
+	
+
+<min_mta_version server="1.6.0-9.22459" client="1.5.6-9.16362" />
+
+</meta>

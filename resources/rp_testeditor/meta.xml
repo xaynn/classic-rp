@@ -1,0 +1,24 @@
+<meta>
+	<info author="Yeleha"
+	name="3DEditor"
+	description="Library for manipulating with objects"
+	version="6.0"
+	type="script"/>
+
+	<script src="server.lua" type="server"/>
+	<script src="server_updater.lua" type="server"/>
+	<script src="config.lua" type="shared"/>
+	<script src="client.lua" type="client"/>
+
+	<export function="startEdit" type="server"/>
+	<export function="startEdit" type="client"/>
+
+	<file src="files/*.png" type="client"/>
+
+	<min_mta_version client="1.6.0-9.22505.0" server="1.6.0-9.22505.0"></min_mta_version>
+
+    <!-- ACL permissions that this resource requires -->
+    <aclrequest>
+        <right name="function.fetchRemote" access="true" />
+    </aclrequest>
+</meta>

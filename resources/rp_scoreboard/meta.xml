@@ -1,0 +1,7 @@
+<meta> 
+    <script src="sourceS.lua" type="server" />
+	<script src="sourceC.lua" type="client" />
+	<min_mta_version server="1.6.0-9.22459" client="1.5.6-9.16362" />
+	<file src="Helvetica.ttf" />
+
+</meta>

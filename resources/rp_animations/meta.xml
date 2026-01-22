@@ -1,0 +1,91 @@
+<meta>
+<min_mta_version client="1.5.8-9.20979" server="1.4.0"/>
+
+
+
+	<script src="sourceC.lua" type="client" cache="false"/>
+	<script src="customAnimsC.lua" type="client" cache="false"/>
+
+	<script src="sourceS.lua" type="server"/>
+
+<file src="files/animlist.xml" />
+
+
+<file src="files/font.ttf" />
+<file src="files/bg.png" />
+<file src="files/bar1.png" />
+<file src="files/bar2.png" />
+<file src="files/gang.png" />
+<file src="files/dance.png" />
+<file src="files/sing.png" />
+<file src="files/stand.png" />
+<file src="files/running.png" />
+<file src="files/info.png" />
+
+<file src="files/rectangle.png" />
+<file src="files/serce.png" />
+<file src="files/lezenie.png" />
+<file src="files/sit.png" />
+
+
+<file src="files/button.png" />
+<file src="files/close.png" />
+<file src="files/row.png" />
+<file src="files/header_icon.png" />
+<file src="files/scroll.png" />
+<file src="files/scrollbar.png" />
+<file src="files/selected_row.png" />
+<file src="files/window.png" />
+<file src="files/accept.png" />
+<!-- <file src="files/panel_animacji.png" /> -->
+
+
+
+	<file src="files/customAnims/pompki.ifp"/>
+	<file src="files/customAnims/parkour.ifp"/>
+	<file src="files/customAnims/beach.ifp"/>
+	<file src="files/customAnims/beach_lying.ifp"/>
+	<file src="files/customAnims/facetsiedzenie.ifp"/>
+	<file src="files/customAnims/car.ifp"/>
+	<file src="files/customAnims/twerknormal.ifp"/>
+	<file src="files/customAnims/twerknakrzesle.ifp"/>
+	<file src="files/customAnims/taniecstriptizerka.ifp"/>
+	<file src="files/customAnims/t-pose.ifp"/>
+	<file src="files/customAnims/sitting_on_knees_embrassing.ifp"/>
+	<file src="files/customAnims/sex_car.ifp"/>
+	<file src="files/customAnims/polup.ifp"/>
+	<file src="files/customAnims/gang_anims.ifp"/>
+	<file src="files/customAnims/gang_anims2.ifp"/>
+	<file src="files/customAnims/gang_anims3.ifp"/>
+	<file src="files/customAnims/gang_anims4.ifp"/>
+	<file src="files/customAnims/rekawkieszeni.ifp"/>
+	<file src="files/customAnims/lying_down_with_hand_behind_head.ifp"/>
+	<file src="files/customAnims/dancing.ifp"/>
+	<file src="files/customAnims/dancing.ifp"/>
+	<file src="files/customAnims/woman_sitting.ifp"/>
+	<file src="files/customAnims/woman_sitting2.ifp"/>
+	<file src="files/customAnims/woman_sitting3.ifp"/>
+	<file src="files/customAnims/kolanko.ifp"/>
+	<file src="files/customAnims/hands_behind_back.ifp"/>
+	<file src="files/customAnims/hands_entwined_behind.ifp"/>
+	<file src="files/customAnims/knee_squat.ifp"/>
+	<file src="files/customAnims/leaning.ifp"/>
+	
+		<file src="files/customAnims/poddajsie.ifp"/>
+		<file src="files/customAnims/beach_2.ifp"/>
+		<file src="files/customAnims/casino.ifp"/>
+		<file src="files/customAnims/beach_3.ifp"/>
+		<file src="files/customAnims/beach_4.ifp"/>
+		<file src="files/customAnims/lapzaglowe.ifp"/>
+		<file src="files/customAnims/camera_2.ifp"/>
+		<file src="files/customAnims/beachanother.ifp"/>
+		<file src="files/customAnims/md_chase.ifp"/>
+		<file src="files/customAnims/rapping_1.ifp"/>
+		<file src="files/customAnims/miscanother.ifp"/>
+		<file src="files/customAnims/dealer.ifp"/>
+		<file src="files/customAnims/dead.ifp"/>
+
+		<file src="files/customAnims/sex.ifp"/>
+
+
+</meta>

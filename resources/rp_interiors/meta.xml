@@ -1,0 +1,28 @@
+<meta>
+
+	<script src="sourceS.lua" type="server"/>
+	<script src="sourceC.lua" type="client"/>
+	<script src="interiorListC.lua" type="client"/>
+
+	<script src="interiorsS.lua" type="server"/>
+	<file src="files/font.ttf" />
+	<file src="files/unlocked_icon.png" />
+	<file src="files/locked_icon.png" />
+	<file src="files/flash.ogg" />
+	<file src="files/shader.fx" />
+	<file src="files/models/*.col"/>
+    <file src="files/models/*.txd"/>
+    <file src="files/models/*.dff"/>
+	<file src="files/images/*.jpg"/>
+
+	<export function="getTempTextureObjectsInInterior" type="client"/>
+	<export function="removeObjectFromInterior" type="server"/>
+	<export function="addObjectToInterior" type="server"/>
+	<export function="editObjectFromInterior" type="server"/>
+	<export function="applyTextureToObject" type="client"/>
+
+
+	<export function="sellPropertyToPlayer" type="server"/>
+	<export function="getPlayerInteriors" type="server"/>
+
+</meta>

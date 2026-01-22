@@ -1,0 +1,16 @@
+<meta>
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.lua" type="client" />
+    <export function="meCommand" type="server" />
+    <export function="doCommand" type="server" />
+    <export function="sendChatOOC" type="server" />
+    <export function="sendChatOOC" type="client" />
+    <export function="enableOOC" type="client" />
+    <script src="walkingStyleC.lua" type="client" />
+
+    <export function="sendICMessage" type="server" />
+
+
+    <download_priority_group>1</download_priority_group>
+
+</meta>

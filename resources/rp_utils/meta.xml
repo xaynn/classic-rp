@@ -1,0 +1,55 @@
+<meta>
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.lua" type="client" />
+
+    <export function="getDate" type="client" />
+	<export function="getDate" type="server" />
+	<export function="getElementDirectionCardialPoint" type="client" />
+	<export function="setScreenFlash" type="client" />
+	<export function="returnMaleSkins" type="client" />
+	<export function="returnFemaleSkins" type="client" />
+	<export function="getXYInFrontOfPlayer" type="server" />
+	<export function="checkPassiveTimer" type="server" />
+	<export function="getPlayerICName" type="server" />
+	<export function="getPlayerICName" type="client" />
+	<export function="moneyFormat" type="client" />
+	<export function="generateRandomString" type="client" />
+	<export function="smoothMoveCamera" type="client" />
+	<export function="destroySmoothMoveCamera" type="client" />
+	<export function="getNearestElement" type="client" />
+	<export function="formatDate" type="client" />
+	
+	<export function="getPositionFromElementOffset" type="client" />
+	<export function="formatDate" type="server" />
+
+	<export function="returnMaleSkins" type="server" />
+	<export function="returnFemaleSkins" type="server" />
+
+
+
+	<export function="getPlayerFromCharID" type="server" />
+
+	<export function="capitalizeFirstLetter" type="server" />
+	<export function="capitalizeFirstLetter" type="client" />
+	<export function="isMelee" type="client" />
+	<export function="isMelee" type="server" />
+	<export function="getNearbyPlayersAtPosition" type="server" />
+
+	<export function="getNearbyPlayers" type="server" />
+
+	<export function="toHex" type="server" />
+	<export function="getDistanceBetweenElements" type="server" />
+	<export function="getDistanceBetweenElements" type="client" />
+
+	<export function="getPlayerLicense" type="server" />
+	<export function="givePlayerLicense" type="server" />
+	<export function="removePlayerLicense" type="server" />
+	<export function="playerJumpAndRunControlState" type="server" />
+	<export function="getPlayerCharTime" type="server" />
+	<export function="getPlayerRealName" type="server" />
+	<export function="getNearestElement" type="server" />
+
+
+    <download_priority_group>198</download_priority_group>
+
+</meta>

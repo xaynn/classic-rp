@@ -1,0 +1,8 @@
+<meta>
+
+	<script src="sourceS.lua" type="server"/>
+	<script src="sourceC.lua" type="client"/>
+	<file src="files/Helvetica.ttf" />
+	<export function="sendOffer" type="server" />
+
+</meta>

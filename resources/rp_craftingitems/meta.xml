@@ -1,0 +1,6 @@
+<meta>
+	<script src="sourceC.lua" type="client"/>
+	<script src="sourceS.lua" type="server"/>
+
+    <min_mta_version server="1.5.2"></min_mta_version>
+</meta>

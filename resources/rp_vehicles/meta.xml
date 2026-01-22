@@ -1,0 +1,71 @@
+<meta>
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.lua" type="client" />
+    <script src="speedoC.lua" type="client" />
+    <script src="petrolC.lua" type="client" />
+    <script src="tuneC.lua" type="client" />
+	<script src="wheelpackC.lua" type="client" />
+
+    <script src="handbrakeC.lua" type="client" />
+    <script src="indicatorsC.lua" type="client" />
+    <script src="indicatorsS.lua" type="server" />
+    <script src="petrolS.lua" type="server" />
+
+		<file src="files/blinker.mp3" />
+
+		<file src="files/handbrake.mp3" />
+		<file src="files/engine.wav" />
+		<file src="files/enginefailed.wav" />
+		<file src="files/closingwindow.wav" />
+		<file src="files/lightswitch.mp3" />
+		<file src="files/recznyBG.png" />
+		<file src="files/recznyPasek.png" />
+
+		<file src="files/lock.mp3" />
+		<file src="files/Helvetica.ttf" />
+		<file src="files/engine.png" />
+		<file src="files/fuel.png" />
+		<file src="files/handbrake.png" />
+		<file src="files/indicator_left.png" />
+		<file src="files/indicator_right.png" />
+		
+    <file src="wheel/wheel1.dff" />
+    <file src="wheel/wheel2.dff" />
+    <file src="wheel/wheel3.dff" />
+    <file src="wheel/wheel4.dff" />
+    <file src="wheel/wheel5.dff" />
+    <file src="wheel/wheel6.dff" />
+    <file src="wheel/wheel7.dff" />
+    <file src="wheel/wheel9.dff" />
+    <file src="wheel/wheel8.dff" />
+    <file src="wheel/wheel10.dff" />
+    <file src="wheel/wheel11.dff" />
+    <file src="wheel/wheel12.dff" />
+    <file src="wheel/wheel13.dff" />
+    <file src="wheel/wheel14.dff" />
+    <file src="wheel/wheel15.dff" />
+    <file src="wheel/wheel16.dff" />
+    <file src="wheel/wheel17.dff" />
+		<export function="hasPlayerPermToVehicle" type="server" />
+
+    <export function="getVehicleUID" type="server" />
+    <export function="isPlayerInGasStation" type="server" />
+    <export function="playVehicleSound" type="server" />
+    <export function="getVehicleData" type="server" />
+    <export function="getPlayerVehicles" type="server" />
+    <export function="getVehicleCurrentData" type="server" />
+    <export function="changeVehicleCurrentStatistics" type="server" />
+    <export function="spawnVehicle" type="server" />
+    <export function="createVeh" type="server" />
+    <export function="getGroupVehicles" type="server" />
+
+    <export function="updateDamageCar" type="server" />
+    <export function="spawnGroupVehicle" type="server" />
+    <export function="vehicleElementName" type="server" />
+
+    <export function="getVehicleData" type="client" />
+
+
+
+    <!-- <export function="query" type="server" /> -->
+</meta>

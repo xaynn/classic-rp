@@ -1,0 +1,6 @@
+local shader = dxCreateShader("plateback.fx")
+local texture = dxCreateTexture("plateback.jpg")
+dxSetShaderValue(shader, "tex", texture)
+engineApplyShaderToWorldTexture( shader, "plateback1")
+engineApplyShaderToWorldTexture( shader, "plateback2")
+engineApplyShaderToWorldTexture( shader, "plateback3")

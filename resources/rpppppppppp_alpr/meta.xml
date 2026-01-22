@@ -1,0 +1,14 @@
+<meta>
+<min_mta_version client="1.5.8-9.20979" server="1.4.0"/>
+    <download_priority_group>100</download_priority_group>
+
+
+	<file src="files/gui.png" />
+	<file src="files/font.ttf" />
+
+    <oop>true</oop>
+
+	<script src="sourceC.lua" type="client"/>
+	<script src="sourceS.lua" type="server"/>
+
+</meta>

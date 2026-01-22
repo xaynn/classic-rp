@@ -1,0 +1,12 @@
+<meta>
+	<script src="utility.lua" type="server"/>
+	<script src="main.lua" type="server"/>
+	<script src="mainClient.lua" type="client"/>
+	<export function="onPlayerGotSuccessfullGymOffer" type="server" /> 
+	<export function="onPlayerUsedSteroids" type="server" /> 
+	<export function="isPlayerDuringTraining" type="server" />
+	<export function="stopExercise" type="server" />
+	<export function="isGymCooldownOver" type="server" />
+
+	
+</meta>

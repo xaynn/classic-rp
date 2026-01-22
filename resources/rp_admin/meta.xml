@@ -1,0 +1,21 @@
+<meta>
+
+	<script src="sourceS.lua" type="server"/>
+	<script src="sourceC.lua" type="client"/>
+	<script src="specC.lua" type="client"/>
+	<script src="flyC.lua" type="client"/>
+	<script src="customTargetC.lua" type="client"/>
+
+	<export function="hasAdminPerm" type="server"/>
+	<export function="loadAdminPerms" type="server"/>
+	<export function="getColorAndRank" type="server"/>
+	<export function="getAdminSpectatingPlayer" type="server"/>
+	<export function="getAdmins" type="server"/>
+
+	<export function="setCustomCameraTarget" type="client"/>
+	<export function="getBanID" type="client"/>
+	<export function="uncryptBan" type="server"/>
+	<export function="renderPenalty" type="server"/>
+
+
+</meta>

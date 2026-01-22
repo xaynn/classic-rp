@@ -1,0 +1,56 @@
+<meta>
+	<script src="loginC.lua" type="client"/>
+	<script src="playersDataC.lua" type="client"/>
+	<script src="utilsC.lua" type="client"/>
+	<script src="characterCreationC.lua" type="client"/>
+	<script src="discordC.lua" type="client"/>
+
+	<export function="isLoggedPlayer" type="server" />
+	<export function="isLoggedAccount" type="server" />
+	<export function="getPlayerState" type="server" />
+	<export function="setPlayerData" type="server" />
+	<export function="getPlayerData" type="server" />
+	<export function="findPlayerByID" type="server" />
+	<export function="getPlayers" type="client" />
+	<export function="getTabPlayers" type="client" />
+	<export function="setDiscordRichPresence" type="client" />
+
+ <!-- tabPlayers[userdata] = {userdata = userdata, name = name, surname = surname, cpoints = cpoints} -->
+	<export function="setPlayerData" type="client" />
+	<export function="getPlayerData" type="client" />
+	<export function="getPlayerGender" type="server" />
+	<export function="changeCharStatistics" type="server" />
+	<export function="getCharData" type="server" />
+	<export function="changeCharData" type="server" />
+	<export function="getCharDataFromTable" type="server" />
+	<export function="getCharDataFromTable" type="client" />
+	<export function="setObjectData" type="server" />
+	<export function="getObjectData" type="client" />
+	<export function="getObjectData" type="server" />
+	<export function="setObjectData" type="client" />
+	<export function="getLoggedPlayers" type="server" />
+
+	<min_mta_version server="1.6.0-9.22459" client="1.5.6-9.16362" />
+
+
+    <download_priority_group>101</download_priority_group>
+
+	
+    <script src="loginS.lua" type="server"/>
+    <script src="elementsDataS.lua" type="server"/>
+
+	<file src="files/Helvetica.ttf" />
+	<file src="files/1.mp3" />
+	<file src="files/2.mp3" />
+	<file src="files/3.mp3" />
+
+	<file src="files/user.png" />
+	<file src="files/password.png" />
+	<file src="files/bg.png" />
+	<file src="files/sdsd.png" />
+	<file src="files/eye.png" />
+	<file src="files/hide.png" />
+    <file src="files/skins/*.png"/>
+
+
+</meta>

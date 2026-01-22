@@ -1,0 +1,12 @@
+<meta>
+    <script src="sourceS.lua" type="server" />
+	<script src="weaponS.lua" type="server" />
+    <script src="sourceC.lua" type="client" />
+    <export function="getCreatedEvents" type="client" />
+    <export function="banPlayerAC" type="server" />
+    <export function="allowPlayerWeapon" type="server" />
+	<min_mta_version server="1.6.0-9.22459" client="1.5.6-9.16362" />
+
+    <download_priority_group>500</download_priority_group>
+
+</meta>

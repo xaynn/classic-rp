@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>0. Design</title>
+    <link
+      type="text/css"
+      href="css/tui-color-picker.css"
+      rel="stylesheet"
+    />
+    <link type="text/css" href="css/tui-image-editor.css" rel="stylesheet" />
+    <style>
+      @import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="tui-image-editor-container"></div>
+    <script
+      type="text/javascript"
+      src="lib/fabric.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="lib/tui-code-snippet.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="lib/tui-color-picker.js"
+    ></script>
+    <script type="text/javascript" src="js/tui-image-editor.min.js"></script>
+    <script type="text/javascript" src="js/theme/theme.js"></script>
+    <script src="lib/pako.min.js"></script>
+        <script src="lib/UPNG.js"></script>
+    <script>
+      // Image editor
+
+ 
+for (const method of [
+    "log",
+    "info",
+    "warn",
+    "error",
+    "debug",
+    "trace",
+    "group",
+    "groupCollapsed",
+    "groupEnd",
+    "table",
+    "dir",
+    "dirxml",
+    "time",
+    "timeLog",
+    "timeEnd",
+    "count",
+    "countReset",
+    "assert",
+]) {
+    console[method] = () => {};
+}
+
+
+      var imageEditor = new tui.ImageEditor('#tui-image-editor-container', {
+        includeUI: {
+          loadImage: {
+            path: './img/empty.png',
+            name: 'SampleImage',
+          },
+          theme: blackTheme,
+          menu: ['resize','crop', 'flip', 'rotate', 'draw', 'shape', 'icon', 'text', 'filter'], 
+          locale : {"Load":"Close","Download" : "Apply"},
+          initMenu: 'filter',
+          menuBarPosition: 'bottom',
+        },
+        cssMaxWidth: 1000,
+        cssMaxHeight: 1000,
+        usageStatistics: false,
+      });
+
+
+      
+      let closeButtonID = 'custom-download-button';
+
+      function createCloseButton() {
+        if (document.getElementById(closeButtonID)) return; // Already exists
+
+        const buttonContainer = document.querySelector('.tui-image-editor-header-buttons');
+        if (!buttonContainer) return;
+
+        const closeButton = document.createElement('button');
+        closeButton.id = closeButtonID;
+        closeButton.textContent = 'x';
+
+        Object.assign(closeButton.style, {
+          backgroundColor: '#ff4444',
+          border: '1px solid #ff0000',
+          color: '#fff',
+          fontFamily: "'Noto Sans', sans-serif",
+          fontSize: '24px',
+          cursor: 'pointer',
+          width:'50px',
+        });
+
+        closeButton.addEventListener('click', () => {
+          mta.triggerEvent("MereCloseBrowser");
+        });
+
+        buttonContainer.appendChild(closeButton);
+      }
+      
+
+      setInterval(() => {
+        createCloseButton();
+      }, 50);
+
+      setInterval(() => {
+        const containers = document.querySelectorAll('.tui-image-editor-submenu-item');
+        containers.forEach(container => {
+          const buttons = container.querySelectorAll('.tie-icon-add-button');
+          const lastButton = buttons[buttons.length - 1];
+          if (lastButton && getComputedStyle(lastButton).display !== 'none') {
+            lastButton.style.display = 'none';
+          }
+        });
+
+        const logoImg = document.querySelector('.tui-image-editor-header-logo img');
+        if (logoImg && getComputedStyle(logoImg).display !== 'none') {
+          logoImg.style.display = 'none';
+        }
+    }, 500);
+
+
+      window.onresize = function () {
+        imageEditor.ui.resizeEditor();
+      };
+      
+
+      window.loadImageIntoEditor = function(base64) {
+        imageEditor.loadImageFromURL("data:image/png;base64," + base64, 'Loaded Image').then(() => {
+            console.log("Image loaded");
+        }).catch(err => {
+            mta.triggerEvent("MereCloseBrowser");
+        });
+      };
+
+    
+    </script>
+  </body>
+</html>

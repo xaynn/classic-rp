@@ -1,0 +1,9 @@
+<meta>
+
+	<script src="sourceS.lua" type="server"/>
+	<script src="sourceC.lua" type="client"/>
+	<min_mta_version server="1.6.0-9.22459" client="1.5.8-9.20979" />
+	<export function="isPlayerBuyingCar" type="server" />
+
+
+</meta>

@@ -1,0 +1,42 @@
+<meta>
+    <script src="main.lua" type="client" />
+    <script src="infobox.lua" type="client" />
+    <script src="mainS.lua" type="server" />
+    <script src="interactionC.lua" type="client" />
+
+    <export function="createButton" type="client" />
+	<export function="createButtonRounded" type="client" />
+	<export function="createEditBox" type="client" />
+	<export function="destroyButton" type="client" />
+	<export function="destroyEditBox" type="client" />
+	<export function="destroyWindow" type="client" />
+	<export function="createWindow" type="client" />
+	<export function="createGridList" type="client" />
+
+	<export function="createLabel" type="client" />
+	<export function="destroyLabel" type="client" />
+	<export function="destroyComboBox" type="client" />
+	<export function="createComboBox" type="client" />
+	<export function="createRectangle" type="client" />
+	<export function="createMemoEditBox" type="client" />
+
+
+	<export function="getEditBoxText" type="client" />
+	<export function="setEditBoxText" type="client" />
+	<export function="getCheckBoxState" type="client" />
+	<export function="createCheckBox" type="client" />
+	<export function="destroyCheckbox" type="client" />
+	<export function="setCheckBoxState" type="client" />
+	<export function="createBox" type="client" /> 
+	<export function="createBox" type="server" /> 
+
+    <download_priority_group>200</download_priority_group>
+
+
+
+    <!-- <export function="query_free" type="server" /> -->
+	<file src="Helvetica.ttf" />
+	<file src="checkbox.png" />
+	<file src="sound.mp3" />
+
+</meta>

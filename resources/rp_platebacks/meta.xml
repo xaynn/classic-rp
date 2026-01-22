@@ -1,0 +1,6 @@
+<meta>
+	<script src="replace.lua" type="client"/>
+		<file src="plateback.fx"/>
+	<file src="plateback.jpg"/>
+
+</meta>

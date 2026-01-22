@@ -1,0 +1,76 @@
+<meta>
+    <info author="MereOnion67" version="1.2.2" type="script" name="Meretool" description="Map Editor Tool"/>
+    
+    <script src="shared/editor.lua" type="shared" />
+    <script src="shared/util.lua" type="shared"/>
+    <script src="shared/files.lua" type="shared"/>
+    <script src="shared/data.lua" type="shared"/>
+    <script src="shared/commands.lua" type="shared" />
+
+    <script src="server/main.lua" type="server" />
+    <script src="server/map.lua" type="server" />
+    <script src="server/mapexports.lua" type="server" />
+    <script src="server/file.lua" type="server" />
+    <script src="server/version.lua" type="server" />
+
+
+    <script src="client/settings.lua" type="client" />
+    <script src="client/main.lua" type="client" />
+    <script src="client/gui.lua" type="client" />
+    <script src="client/preview.lua" type="client" />
+    <script src="client/flasheffect.lua" type="client" />
+    <script src="client/multiselect.lua" type="client" />
+    <script src="client/lodDistance.lua" type="client" />
+    <script src="client/file.lua" type="client" />
+    <script src="client/browser.lua" type="client"/>
+    <script src="client/texture.lua" type="client"/>
+    <script src="client/colorpicker/colorpicker.lua" type="client" />
+
+
+
+
+    <file src="client/colorpicker/palette.png" />
+    <file src="client/colorpicker/alpha.png" />
+    <file src="client/texture_index.json"/>
+
+
+
+
+    <file src="images/not_found.png" />
+
+    
+    
+    <!-- TUI Files -->
+
+    <file src="tui/index.html"/>
+    <file src="tui/css/tui-color-picker.css"/>
+    <file src="tui/css/tui-image-editor.css"/>
+
+    <file src="tui/js/tui-image-editor.min.js"/>
+    <file src="tui/js/theme/theme.js"/>
+
+
+    <file src="tui/img/bg.png"/>
+    <file src="tui/img/download.png"/>
+    <file src="tui/img/empty.png"/>
+    <file src="tui/img/mask.png"/>
+    <file src="tui/img/openImage.png"/>
+    <file src="tui/img/redo.png"/>
+    <file src="tui/img/remove.png"/>
+    <file src="tui/img/undo.png"/>
+
+
+    <file src="tui/lib/fabric.js"/>
+    <file src="tui/lib/FileSaver.min.js"/>
+    <file src="tui/lib/pako.min.js"/>
+    <file src="tui/lib/tui-code-snippet.min.js"/>
+    <file src="tui/lib/tui-color-picker.js"/>
+    <file src="tui/lib/UPNG.js"/>
+
+
+    <aclrequest>
+        <right name="general.ModifyOtherObjects" access="true" />
+        <right name="function.callRemote" access="true" />
+    </aclrequest>
+    
+</meta>

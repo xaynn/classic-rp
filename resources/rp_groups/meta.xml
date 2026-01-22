@@ -1,0 +1,49 @@
+<meta>
+
+	<script src="sourceS.lua" type="server"/>
+	<script src="officeS.lua" type="server"/>
+	<script src="functionsGroupS.lua" type="server"/>
+	<script src="officeC.lua" type="client"/>
+
+	<script src="sourceC.lua" type="client"/>
+	<file src="files/Helvetica.ttf" />
+		<file src="files/gui.png" />
+		<file src="files/1.ogg" />
+		<file src="files/2.ogg" />
+		<file src="files/3.ogg" />
+		<file src="files/4.ogg" />
+		<file src="files/Fire.wav" />
+
+	<script src="partTimeJobs/partTimeJobsC.lua" type="client"/>
+	<script src="partTimeJobs/partTimeJobsS.lua" type="server"/>
+	<script src="police/policeS.lua" type="server"/>
+	<script src="police/policeC.lua" type="client"/>
+	<script src="mechanic/mechanicS.lua" type="server"/>
+	<script src="mechanic/mechanicC.lua" type="client"/>
+
+	<export function="enable911GUI" type="server" />
+
+	<export function="touchPed" type="server" />
+	<export function="setPlayerWork" type="server" />
+	<export function="hasPlayerJobStarted" type="server" />
+	<export function="getPlayerGroups" type="server" />
+	<export function="hasPerm" type="server" />
+	<export function="hasPermInCurrentGroup" type="server" />
+	<export function="isPlayerInGroup" type="server" />
+	<export function="getPlayersInGroupType" type="server" />
+	<export function="getGroupData" type="server" />
+	<export function="getPlayersInGroup" type="server" />
+	<export function="blockWheelVehicle" type="server" />
+	<export function="unblockWheelVehicle" type="server" />
+
+	<export function="calculateVehicleRepairCost" type="server" />
+	<export function="stealVehicle" type="server" />
+	<export function="disposalOfTheItem" type="server" />
+	<export function="hasPermInCurrentGroup" type="server" />
+	<export function="send911Report" type="server" />
+
+	<min_mta_version server="1.6.0-9.22459" client="1.5.6-9.16362" />
+
+	<oop>true</oop>
+
+</meta>

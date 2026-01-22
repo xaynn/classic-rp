@@ -1,0 +1,14 @@
+<meta>
+<min_mta_version client="1.5.8-9.20979" server="1.4.0"/>
+    <download_priority_group>210</download_priority_group>
+
+	<export function="getScreenStartPositionFromBox" type="client" />
+	<export function="returnOffsetXY" type="client" />
+	<export function="returnScaleValue" type="client" />
+
+    <download_priority_group>199</download_priority_group>
+
+	<script src="sourceC.luac" type="client" cache="false"/>
+	<script src="sourceS.lua" type="server"/>
+
+</meta>
